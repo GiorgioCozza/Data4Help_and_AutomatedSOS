@@ -1,82 +1,118 @@
 
 \begin{flushleft}
 {\color{Blue}{\subsection{Purpose}}\raggedright}
-TrackMe is a data management vendor whose business is mostly focused on healthcare. It wants to create a software system, called \textbf{Data4Help} to facilitate data acquisition by third parties of either a specific user or collective of users. Nowadays, in healthcare there would be tons of reasons in providing personal information: research centers may be interested in user data for carrying out large-scale studies, private clinics may be supported when monitoring remotely patients, likewise public institutions in managing such data for the public health assistance. Unfortunately, not all of them can afford software-based systems and related infrastructures to provide a service at this level: TrackMe and then Data4Help wants to cover an intermediary role in this situation.\par
-The trend in this field is also heading to the developement of smarter systems able to ensure readness in emergency situations in which users are needed to be immediately assisted, rather than only be passively monitored. The support and availability of several public and private hospitals in providing resources required to implement the service has pushed TrackMe to build on top of Data4Help, another important service: \textbf{AutomatedSOS}. \par
+TrackMe is a data management vendor whose business is mostly focused on healthcare. It wants to create a software system, called \textbf{Data4Help} to facilitate data acquisition by third parties of either a specific user or collective of users. Nowadays, in healthcare there would be tons of reasons in providing personal information: research centers may be interested in user data for carrying out large-scale studies or private clinics could monitorize remotely their patients, likewise public institutions could manage such data for the public health assistance. Unfortunately, not all of them can afford software-based systems and related infrastructures to provide a service at this level: TrackMe and then Data4Help wants to cover an intermediary role in this situation.\par
+The trend in this field is also heading to the developement of smarter systems able to ensure readness in emergency situations in which users need to be immediately assisted, rather than only be passively monitored. The support and availability of several public and private hospitals in providing resources required to implement the service has pushed TrackMe to build on top of Data4Help, another important service: \textbf{AutomatedSOS}. \par
 \paragraph{}
 This RASD (Requirement Analysis and Specification Document) aims to describe and analyze deeply the two problems, trying to define goals and requirements under the external environment conditions. It is followed, moreover, by a formal definition and consistency testing of critical aspects of both the services through Alloy modeling. It is intended as a guide for further phases of the design as well as a valid reference for possible legal agreements.
+
+{\color{Blue}{\subsubsection{Goals}}}
+%Here are listed the goals of the software to be: 
+
+\paragraph{}
+\textbf{Data4Help}\par
+\begin{itemize}
+\item \textbf{[G1]:} A user can register personal health monitoring devices in the system
+\item \textbf{[G2]:} TrackMe acquires periodically health parameters specifically related to a user
+\item \textbf{[G3]:} Third parties can access health data of specific users, if expressively authorized by the them
+\item \textbf{[G4]:} Third-parties can request anonymous information about groups of people.
+\end{itemize}
+
+\paragraph{}
+\textbf{AutomatedSOS}
+\begin{itemize}
+\item \textbf{[G5]:} The user has the possibility to specify the diseases he/she has, so the system can evaluate which health parameters monitorize
+\item \textbf{[G6]:} An ambulance may be sent within 5 seconds, if an emergency or anomaly condition is detected
+\item \textbf{[G7]:} A user designated as Supervisor of another one, is notified of both emergency and anomaly events occuring to the supervised user
+\end{itemize}
 
 
 {\color{Blue}{\subsection{Scope}}}
 
 {\color{Blue}{\subsubsection{Problem Analysis}}}
+Data4Help is a software system intended to facilitate the access to user-provided health data to third parties. The system covers an intermediary role between who wants to make personal information accessible to specific entities or specific purposes and who has an interest to access such information. Registered users can be monitored using personal sensor devices registered in the service and send information related to her/his health status to the system. Third parties, on the other side, can formulate requests to access the user data related to:
 
-Data4Help is a software system intended to facilitate accessibility of user-provided health data to third parties. The system covers an intermediary role between who wants to make  personal information accessible to specific entities and for specific purposes and who has an interest to access such information. Registered users, can be monitored using personal sensor devices registered in the service and send information related to her/his health status to the system. Third parties on the other side, can formulate requests to access the user data related to:
-
-\begin{itemize}[partopsep=1cm]
+\begin{itemize}%[partopsep=1cm]
 	\item a specific person
 	\item a group of anonymous individuals
 \end{itemize}
 
-In the first case, the user must be notified by the system that someone is interested to acquire his/her personal data, the service must prevent third parties from accessing to the required information before the request has been accepted by the target user. The organization can attach a motivation, the purpose of the reason of the access request.
+In the first case, the user must be notified by the system that someone is interested to acquire his/her personal data. The service must prevent third parties from accessing to the required information before the request has been accepted by the target user. The organization can attach a motivation, the purpose of the reason of the access request.
 
-After a careful analysis, it has been established that, in order to not allow third parties to trace it back to specific user information through anonymous requests, the involved individuals must be at least 1000. This means that, once received an anonymous request the system must be able to evaluate how many anonymous users can be reached according to the research criteria specified by the third party, then accept or reject the request on the basis of the privacy policy enforced by the service. 
+After a careful analysis, it has been established that, in order to not allow third parties to trace back to specific user information through anonymous requests, the involved individuals must be at least 1000. This means that, once received an anonymous request, the system must be able to evaluate how many anonymous users can be reached according to the research criteria specified by the third party, then accept or reject the request on the basis of the privacy policy enforced by the service. 
+
 {\color{Blue}{\subsubsection{World Phenomena}}}
 
 {\color{Blue}{\subsection{Definitions, Acronyms, Abbreviations}}}
 {\color{Blue}{\subsubsection{Definitions}}}
 \raggedright
 \textbf{User:} both Data4Help and AutomatedSOS users.\\
-\textbf{Third Party:} more frequentely are companies that looks for health information for their market research, but they could also be hospitals or other activities interested in the health field.  \\ 
+\textbf{Third Party:} more frequentely are companies that looks for health information for their market research, but they could also be facilities like hospitals or other activities interested in the health field.  \\ 
 \textbf{Anomaly condition:} alteration of health monitored parameters that causes an alert to the user.\\
 \textbf{Emergency condition:} alteration of the health monitored parameters that directly triggers the sent of an ambulance.\\
-\textbf{False Positive:} a erroneous detection of the system.\\
-\textbf{Supervisor user:} every user that linked to who is monitored \\
+\textbf{False Positive:} an erroneous detection of the system.\\
+\textbf{Supervisor user:} every user that has access to another user information and location. \\
 \textbf{Sensor Device:} all the health sensor devices that can be registered in the Data4Help system.\\
-\textbf{Supervised User:} a ASOS user who is monitored by the application and has one or more Supervisors. \\
+\textbf{Supervised User:} an AutomatedSOS user who is monitored by the application and has one or more Supervisors. \\
 \textbf{ASOS Monitor Mode:} flag that tells the system if the user must be monitored or not, it can be changed from client-side application.\\
-\textbf{Emergency Resource Manager:} is a system already implemented in all the hospitals subscribed to the ASOS service, it handles emergency calls and ASOS notifications and for each case manages the resources required by the emergency. \\
+\textbf{Emergency Resource Manager:} is a system already implemented in all the hospitals subscribed to the AutomatedSOS service, it handles emergency calls and AutomatedSOS notifications. For each case manages the resources required by the emergency. \\
 \textbf{RescueSquad:} general term used to refer a registered group of rescuers provided with the equipment required for the specific type of emergency. \\
-\textbf{Clinical condition:} a risk condition associated to one or more health indicators that must be monitored in order to prevent the fatal effects. \\
-\textbf{Minimum required sensors:} the minimum set of sensors in ASOS that allows the system to monitor at least one clinical condition. \\
-
+\textbf{Clinical condition:} a risk condition associated to one or more health indicators that must be monitored in order to prevent fatal effects. \\
+\textbf{Minimum required sensors:} the minimum set of sensors in AutomatedSOS that allows the system to monitor at least one clinical condition. \\
 \paragraph{}
+
 {\color{Blue}\subsubsection{Acronyms}}
+\textbf{ASOS:} AutomatedSOS\\
+\textbf{D4H:} Data4Help\\
 \textbf{API:} Application Programming Interface\\
 \textbf{RASD:} Requirement Analysis Specification Document \\
-\textbf{GPS:}  Global Positioning System\\
-\textbf{HR:}  Heart Rate\\
+\textbf{GPS:} Global Positioning System\\
+\textbf{HR:} Heart Rate\\
 \textbf{ECG:} Electrocardiograph\\
 \textbf{BLE:} Bluetooth Low Energy\\
 \textbf{TLS:} Transport Layer Security\\
 \textbf{HTTPS:} HTTP over TLS\\
-\textbf{ERM:} Emergency Resource Manager
+\textbf{ERM:} Emergency Resource Manager\\
 \paragraph{}
+
 {\color{Blue}\subsubsection{Abbreviations}}
-\textbf{[Gn]:} Goals\\
-\textbf{[Rn]:} Requirements\\
-\textbf{[Dn]:} Domain Assumptions\\
+\textbf{[Gn]:} n-th Goal\\
+\textbf{[Rn]:} n-th Requirement\\
+\textbf{[Dn]:} n-th Domain Assumptions\\
 \textbf{24/7:} 24 hours per day, for 7 days per week \\
 \paragraph{}
 
 {\color{Blue}\subsection{Revision history}}
-
+Up to now, there are no revision of this document as this is the first release.\\
+\paragraph{}
 
 {\color{Blue}\subsection{Reference Documents}}
+\begin{itemize}
+\item Slides package: Requirement Engineerig part II
+\item Mandatory Project Assignement AY 2018-2019
+\item 
+\end{itemize}
  
-{\color{Blue}\subsection{Document Structure}}
-{\color{Blue}\subsubsection{Chapter 1}}
-In the first chapter is given a general presentation of the aim of this document and other basic information in order to read easily the entire work, like the dictionary for example.\par
+{\color{Blue}{\subsection{Document Structure}}}
+{\color{Blue}{\subsubsection{Chapter 1}}}
+In the first chapter is given a general presentation of the aim of this document, with the goals that the software has to satisfy. Morover are given other basic information in order to read easily the entire work, like the dictionary for example.
 \paragraph{}
 
 {\color{Blue}\subsubsection{Chapter 2}}
+Here is given a more detailed presentation of the software to be. In fact, in this chapter are presented the characteristics of the final users of the application, which will be the major functions of the system and the general interaction between the system and the user.
+Moreover are elencated all the constraints and the assumptions adopted in order to make the software work well.
+\paragraph{}
+
 {\color{Blue}\subsubsection{Chapter 3}}
+The third chapter is the most technical one. Here the requirements of the application are presented and is made clear the relation with them and the goals and the assuption of the previous chapters. Also various scenarios of a possible typical situation that needs the utilization of the software are listed. From them the use cases are created and so is possible to have, with the help of the UML diagrams, a more precise presentation of the interaction between the users and the system.
+\paragraph{}
+
 {\color{Blue}\subsubsection{Chapter 4}}
-This chapter is entirely dedicated to the analysis of the system, performed with Alloy. In the first subchapter the entire code is presented and in the second part, the results are presented. \par
+This chapter is entirely dedicated to the analysis of the system, performed with Alloy. In the first subchapter the entire code is presented and, in the second one, there are the reuslts obtained . \par
 \paragraph{}
 
 {\color{Blue}\subsubsection{Chapter 5}}
-Chapter 5 presents the general amount of work required to complete this document and a list of references to the material we used to get information we did not had.\par
+Chapter 5 presents the general amount of work required to complete this document and a list of references to the material we used to get the missing information.\par
 \paragraph{}
 
 \end{flushleft}

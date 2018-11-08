@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.9)  7 NOV 2018 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.9)  8 NOV 2018 22:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1052,39 +1052,220 @@ orations.pathmorphing.code.tex))
 \highlight@previous=\dimen256
 \highlight@current=\dimen257
 ) (./util/abbrev.tex))
-(c:/texlive/2016/texmf-dist/tex/latex/subfig/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count141
-\sf@farskip=\skip96
-\sf@captopadj=\dimen258
-\sf@capskip=\skip97
-\sf@nearskip=\skip98
-\c@subfigure=\count142
-\c@subfigure@save=\count143
-\c@subtable=\count144
-\c@subtable@save=\count145
-\sf@top=\skip99
-\sf@bottom=\skip100
+(c:/texlive/2016/texmf-dist/tex/latex/inconsolata/inconsolata.sty
+Package: inconsolata 2016/02/22 v1.10
+
+`inconsolata-zi4' v1.10, 2016/02/22 Text macros for Inconsolata (msharpe)
+(c:/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(c:/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(c:/texlive/2016/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 8.
+\zifour@ocount=\count141
+)
+(c:/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count142
+\lst@gtempboxa=\box51
+\lst@token=\toks46
+\lst@length=\count143
+\lst@currlwidth=\dimen258
+\lst@column=\count144
+\lst@pos=\count145
+\lst@lostspace=\dimen259
+\lst@width=\dimen260
+\lst@newlines=\count146
+\lst@lineno=\count147
+\lst@maxwidth=\dimen261
+
+(c:/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count148
+\lst@skipnumbers=\count149
+\lst@framebox=\box52
+)
+(c:/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(./alloy-style.sty)
+Package hyperref Info: Option `colorlinks' set `true' on input line 10.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 11.
+
+(c:/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 11.
 
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1125,17 +1306,17 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count146
-\scratchdimen=\dimen259
-\scratchbox=\box51
-\nofMPsegments=\count147
-\nofMParguments=\count148
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count149
-\MPscratchDim=\dimen260
-\MPnumerator=\count150
-\makeMPintoPDFobject=\count151
-\everyMPtoPDFconversion=\toks47
+\scratchcounter=\count150
+\scratchdimen=\dimen262
+\scratchbox=\box53
+\nofMPsegments=\count151
+\nofMParguments=\count152
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count153
+\MPscratchDim=\dimen263
+\MPnumerator=\count154
+\makeMPintoPDFobject=\count155
+\everyMPtoPDFconversion=\toks48
 ) (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1152,11 +1333,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring ON on input line 9.
+\AtBeginShipoutBox=\box54
+Package hyperref Info: Link coloring ON on input line 11.
 
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1164,51 +1345,56 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count152
+\c@section@level=\count156
 )
-LaTeX Info: Redefining \ref on input line 9.
-LaTeX Info: Redefining \pageref on input line 9.
-LaTeX Info: Redefining \nameref on input line 9.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
  ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+wasy on input line 20.
+(c:/texlive/2016/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+\c@lstlisting=\count157
+LaTeX Font Info:    Try loading font information for U+wasy on input line 22.
 
 (c:/texlive/2016/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 20.
+LaTeX Font Info:    Try loading font information for U+msa on input line 22.
 
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 20.
+LaTeX Font Info:    Try loading font information for U+msb on input line 22.
 
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Images/PolimiLogo.png, id=243, 405.515pt x 125.46875pt>
+<Images/PolimiLogo.png, id=263, 405.515pt x 125.46875pt>
 <use Images/PolimiLogo.png> <use Images/PolimiLogo.png>
 File: Images/PolimiLogo.png Graphic file (type png)
 
 <use Images/PolimiLogo.png>
-Package pdftex.def Info: Images/PolimiLogo.png used on input line 23.
+Package pdftex.def Info: Images/PolimiLogo.png used on input line 25.
 (pdftex.def)             Requested size: 202.75699pt x 62.7342pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 31.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 33.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 32.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 34.
 [1{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./Images/PolimiLogo.png>] (c:/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm
+ <./Images/PolimiLogo.png>] (c:/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm
 .fd)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1216,11 +1402,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
 [2]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 65.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 67.
  (./main.toc [3])
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -1239,156 +1423,138 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 3.
  [6
 
-])
-Underfull \vbox (badness 1092) has occurred while \output is active []
-
- [7]
-[8] (./Files/overview.tex
+] [7] [8]) [9] (./Files/overview.tex
 
 Package hyperref Warning: Suppressing empty link on input line 4.
 
 
-LaTeX Warning: Reference `fig:metamodel' on page 9 undefined on input line 4.
+LaTeX Warning: Reference `fig:metamodel' on page 10 undefined on input line 4.
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 4.
-(c:/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [9
+LaTeX Font Info:    Try loading font information for T1+zi4 on input line 4.
+(c:/texlive/2016/texmf-dist/tex/latex/inconsolata/t1zi4.fd
+File: t1zi4.fd 2014/06/22 T1/zi4 (Inconsolata)
+)
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
-]
-(./Files/requirements.tex
-<Images/interfaces/Login.png, id=373, 321.2pt x 570.13pt>
+ []
+
+[10
+
+]) [11] (./Files/requirements.tex
+<Images/interfaces/Login.png, id=416, 321.2pt x 570.13pt>
 File: Images/interfaces/Login.png Graphic file (type png)
 
 <use Images/interfaces/Login.png>
-Package pdftex.def Info: Images/interfaces/Login.png used on input line 10.
+Package pdftex.def Info: Images/interfaces/Login.png used on input line 11.
 (pdftex.def)             Requested size: 128.47772pt x 228.04796pt.
 
-<Images/interfaces/SelectDevice.png, id=375, 321.2pt x 570.13pt>
+<Images/interfaces/SelectDevice.png, id=418, 321.2pt x 570.13pt>
 File: Images/interfaces/SelectDevice.png Graphic file (type png)
 
 <use Images/interfaces/SelectDevice.png>
 Package pdftex.def Info: Images/interfaces/SelectDevice.png used on input line 
-17.
+18.
 (pdftex.def)             Requested size: 128.47772pt x 228.04796pt.
 
-<Images/interfaces/PendingRequests.png, id=376, 321.2pt x 570.13pt>
+<Images/interfaces/PendingRequests.png, id=419, 321.2pt x 570.13pt>
 File: Images/interfaces/PendingRequests.png Graphic file (type png)
 
 <use Images/interfaces/PendingRequests.png>
 Package pdftex.def Info: Images/interfaces/PendingRequests.png used on input li
-ne 27.
+ne 28.
 (pdftex.def)             Requested size: 128.47772pt x 228.04796pt.
 
-<Images/interfaces/TPRequest.png, id=377, 321.2pt x 570.13pt>
+<Images/interfaces/TPRequest.png, id=420, 321.2pt x 570.13pt>
 File: Images/interfaces/TPRequest.png Graphic file (type png)
 
 <use Images/interfaces/TPRequest.png>
-Package pdftex.def Info: Images/interfaces/TPRequest.png used on input line 34.
+Package pdftex.def Info: Images/interfaces/TPRequest.png used on input line 35.
 
 (pdftex.def)             Requested size: 128.47772pt x 228.04796pt.
 
-<Images/interfaces/MakeRequest.png, id=378, 834.11626pt x 554.07pt>
+<Images/interfaces/MakeRequest.png, id=421, 834.11626pt x 554.07pt>
 File: Images/interfaces/MakeRequest.png Graphic file (type png)
 
 <use Images/interfaces/MakeRequest.png>
 Package pdftex.def Info: Images/interfaces/MakeRequest.png used on input line 4
-4.
+6.
 (pdftex.def)             Requested size: 333.6406pt x 221.62407pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1132) has occurred while \output is active []
 
- [10
+ [12
 
  <./Images/interfaces/Login.png> <./Images/interfaces/SelectDevice.png> <./Imag
 es/interfaces/PendingRequests.png> <./Images/interfaces/TPRequest.png>]
-<Images/interfaces/AnonymousRequest.png, id=387, 834.11626pt x 554.07pt>
+<Images/interfaces/AnonymousRequest.png, id=430, 834.11626pt x 554.07pt>
 File: Images/interfaces/AnonymousRequest.png Graphic file (type png)
 
 <use Images/interfaces/AnonymousRequest.png>
 Package pdftex.def Info: Images/interfaces/AnonymousRequest.png used on input l
-ine 51.
+ine 53.
 (pdftex.def)             Requested size: 333.6406pt x 221.62407pt.
 
-<Images/interfaces/Setup.png, id=388, 321.2pt x 570.13pt>
+<Images/interfaces/Setup.png, id=431, 321.2pt x 570.13pt>
 File: Images/interfaces/Setup.png Graphic file (type png)
 
 <use Images/interfaces/Setup.png>
-Package pdftex.def Info: Images/interfaces/Setup.png used on input line 62.
+Package pdftex.def Info: Images/interfaces/Setup.png used on input line 65.
 (pdftex.def)             Requested size: 128.47772pt x 228.04796pt.
 
-<Images/interfaces/SelectDesease.png, id=389, 321.2pt x 570.13pt>
+<Images/interfaces/SelectDesease.png, id=432, 321.2pt x 570.13pt>
 File: Images/interfaces/SelectDesease.png Graphic file (type png)
 
 <use Images/interfaces/SelectDesease.png>
 Package pdftex.def Info: Images/interfaces/SelectDesease.png used on input line
- 69.
+ 72.
 (pdftex.def)             Requested size: 128.47772pt x 228.04796pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11 <./Images/interfaces/MakeRequest.png> <./Images/interfaces/AnonymousReques
+ [13 <./Images/interfaces/MakeRequest.png> <./Images/interfaces/AnonymousReques
 t.png>]
-<Images/interfaces/Screen.png, id=396, 321.2pt x 570.13pt>
+<Images/interfaces/Screen.png, id=440, 321.2pt x 570.13pt>
 File: Images/interfaces/Screen.png Graphic file (type png)
 
 <use Images/interfaces/Screen.png>
-Package pdftex.def Info: Images/interfaces/Screen.png used on input line 79.
+Package pdftex.def Info: Images/interfaces/Screen.png used on input line 82.
 (pdftex.def)             Requested size: 128.47772pt x 228.04796pt.
 
-<Images/interfaces/EmergencyDetection.png, id=397, 321.2pt x 570.13pt>
+<Images/interfaces/EmergencyDetection.png, id=441, 321.2pt x 570.13pt>
 File: Images/interfaces/EmergencyDetection.png Graphic file (type png)
 
 <use Images/interfaces/EmergencyDetection.png>
 Package pdftex.def Info: Images/interfaces/EmergencyDetection.png used on input
- line 86.
+ line 89.
 (pdftex.def)             Requested size: 128.47772pt x 228.04796pt.
- [12 <./Images/interfaces/Setup.png> <./Images/interfaces/SelectDesease.png> <.
+ [14 <./Images/interfaces/Setup.png> <./Images/interfaces/SelectDesease.png> <.
 /Images/interfaces/Screen.png> <./Images/interfaces/EmergencyDetection.png>] [1
-3] [14] [15]
-Overfull \hbox (22.54718pt too wide) in paragraph at lines 224--249
+5]
+Overfull \hbox (0.6278pt too wide) in paragraph at lines 159--160
+[]\T1/ptm/m/n/10.95 Marianna turned 60 one month ago and re-cieved a no-ti-fi-c
+a-tion from the app Data4Help that prouposed
+ []
+
+[16] [17]
+Overfull \hbox (22.54718pt too wide) in paragraph at lines 259--284
  [][] 
  []
 
 
-Overfull \hbox (22.54718pt too wide) in paragraph at lines 254--275
+Overfull \hbox (22.54718pt too wide) in paragraph at lines 289--306
  [][] 
  []
 
-
-Underfull \vbox (badness 3219) has occurred while \output is active []
-
- [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
-Overfull \hbox (22.54718pt too wide) in paragraph at lines 280--303
- [][] 
- []
-
-
-Overfull \hbox (22.54718pt too wide) in paragraph at lines 308--329
- [][] 
- []
-
-
-Overfull \hbox (22.54718pt too wide) in paragraph at lines 334--350
- [][] 
- []
-
-
-Underfull \vbox (badness 3679) has occurred while \output is active []
-
- [18]
-Overfull \hbox (22.54718pt too wide) in paragraph at lines 355--376
- [][] 
- []
-
-
+[18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
-Overfull \hbox (22.54718pt too wide) in paragraph at lines 381--405
+Overfull \hbox (22.54718pt too wide) in paragraph at lines 311--331
+ [][] 
+ []
+
+
+Overfull \hbox (22.54718pt too wide) in paragraph at lines 336--357
  [][] 
  []
 
@@ -1396,7 +1562,12 @@ Overfull \hbox (22.54718pt too wide) in paragraph at lines 381--405
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
-Overfull \hbox (22.54718pt too wide) in paragraph at lines 410--429
+Overfull \hbox (22.54718pt too wide) in paragraph at lines 362--378
+ [][] 
+ []
+
+
+Overfull \hbox (22.54718pt too wide) in paragraph at lines 383--404
  [][] 
  []
 
@@ -1404,37 +1575,15 @@ Overfull \hbox (22.54718pt too wide) in paragraph at lines 410--429
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-<Images/UML/D4H_usecase.png, id=488, 440.64626pt x 312.66812pt>
-File: Images/UML/D4H_usecase.png Graphic file (type png)
-
-<use Images/UML/D4H_usecase.png>
-Package pdftex.def Info: Images/UML/D4H_usecase.png used on input line 433.
-(pdftex.def)             Requested size: 484.71237pt x 343.93599pt.
-
-Overfull \hbox (29.46826pt too wide) in paragraph at lines 433--434
- [] 
- []
-
-
-Underfull \hbox (badness 2556) in paragraph at lines 454--455
-[]\T1/ptm/m/n/10.95 If the user has logged in for the first time, the sys-tem
- []
-
-
-Underfull \hbox (badness 3189) in paragraph at lines 454--455
-\T1/ptm/m/n/10.95 starts to $[]$ (see:"Change
- []
-
-
-Overfull \hbox (22.54718pt too wide) in paragraph at lines 441--458
+Overfull \hbox (22.54718pt too wide) in paragraph at lines 409--433
  [][] 
  []
 
 
-Underfull \vbox (badness 3746) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22 <./Images/UML/D4H_usecase.png>]
-Overfull \hbox (22.54718pt too wide) in paragraph at lines 463--484
+ [22]
+Overfull \hbox (22.54718pt too wide) in paragraph at lines 438--457
  [][] 
  []
 
@@ -1442,25 +1591,34 @@ Overfull \hbox (22.54718pt too wide) in paragraph at lines 463--484
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
-Overfull \hbox (22.54718pt too wide) in paragraph at lines 489--507
- [][] 
+<Images/UML/D4H_usecase.png, id=541, 440.64626pt x 312.66812pt>
+File: Images/UML/D4H_usecase.png Graphic file (type png)
+
+<use Images/UML/D4H_usecase.png>
+Package pdftex.def Info: Images/UML/D4H_usecase.png used on input line 461.
+(pdftex.def)             Requested size: 484.71237pt x 343.93599pt.
+
+Overfull \hbox (29.46826pt too wide) in paragraph at lines 461--462
+ [] 
  []
 
 
-Overfull \hbox (22.54718pt too wide) in paragraph at lines 511--532
- [][] 
+Underfull \hbox (badness 2556) in paragraph at lines 483--484
+[]\T1/ptm/m/n/10.95 If the user has logged in for the first time, the sys-tem
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24]
-Overfull \hbox (22.54718pt too wide) in paragraph at lines 537--557
- [][] 
+Underfull \hbox (badness 3189) in paragraph at lines 483--484
+\T1/ptm/m/n/10.95 starts to $[]$ (see:"Change
  []
 
 
-Overfull \hbox (22.54718pt too wide) in paragraph at lines 562--581
+Overfull \hbox (22.54718pt too wide) in paragraph at lines 470--487
+ [][] 
+ []
+
+[24 <./Images/UML/D4H_usecase.png>]
+Overfull \hbox (22.54718pt too wide) in paragraph at lines 492--512
  [][] 
  []
 
@@ -1468,96 +1626,144 @@ Overfull \hbox (22.54718pt too wide) in paragraph at lines 562--581
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
+Overfull \hbox (22.54718pt too wide) in paragraph at lines 517--535
+ [][] 
+ []
+
+
+Overfull \hbox (22.54718pt too wide) in paragraph at lines 539--560
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Overfull \hbox (22.54718pt too wide) in paragraph at lines 565--585
+ [][] 
+ []
+
+
+Overfull \hbox (22.54718pt too wide) in paragraph at lines 590--609
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
 Overfull \vbox (72.0474pt too high) has occurred while \output is active []
 
 
-[26] <Images/UML/ASOS_usecase.png, id=545, 466.74374pt x 301.125pt>
+[28] <Images/UML/ASOS_usecase.png, id=597, 466.74374pt x 301.125pt>
 File: Images/UML/ASOS_usecase.png Graphic file (type png)
 
 <use Images/UML/ASOS_usecase.png>
-Package pdftex.def Info: Images/UML/ASOS_usecase.png used on input line 584.
+Package pdftex.def Info: Images/UML/ASOS_usecase.png used on input line 612.
 (pdftex.def)             Requested size: 513.4197pt x 331.23851pt.
 
-Overfull \hbox (58.17558pt too wide) in paragraph at lines 584--585
+Overfull \hbox (58.17558pt too wide) in paragraph at lines 612--613
  [] 
  []
 
-<Images/UML/RegisterDeviceSeq.png, id=546, 623.32875pt x 543.02875pt>
+<Images/UML/RegisterDeviceSeq.png, id=598, 623.32875pt x 543.02875pt>
 File: Images/UML/RegisterDeviceSeq.png Graphic file (type png)
 
 <use Images/UML/RegisterDeviceSeq.png>
-Package pdftex.def Info: Images/UML/RegisterDeviceSeq.png used on input line 59
-2.
+Package pdftex.def Info: Images/UML/RegisterDeviceSeq.png used on input line 62
+1.
 (pdftex.def)             Requested size: 374.00014pt x 325.81975pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27 <./Images/UML/ASOS_usecase.png>]
-<Images/UML/MakeRequestSeq.png, id=552, 663.47874pt x 473.77pt>
+ [29 <./Images/UML/ASOS_usecase.png>]
+<Images/UML/MakeRequestSeq.png, id=604, 663.47874pt x 473.77pt>
 File: Images/UML/MakeRequestSeq.png Graphic file (type png)
 
 <use Images/UML/MakeRequestSeq.png>
-Package pdftex.def Info: Images/UML/MakeRequestSeq.png used on input line 597.
+Package pdftex.def Info: Images/UML/MakeRequestSeq.png used on input line 626.
 (pdftex.def)             Requested size: 398.0903pt x 284.26419pt.
 
-<Images/UML/EvaluateRequestSeq.png, id=553, 653.44125pt x 703.62875pt>
+<Images/UML/EvaluateRequestSeq.png, id=605, 653.44125pt x 703.62875pt>
 File: Images/UML/EvaluateRequestSeq.png Graphic file (type png)
 
 <use Images/UML/EvaluateRequestSeq.png>
 Package pdftex.def Info: Images/UML/EvaluateRequestSeq.png used on input line 6
-02.
+31.
 (pdftex.def)             Requested size: 392.06776pt x 422.18051pt.
- [28 <./Images/UML/RegisterDeviceSeq.png> <./Images/UML/MakeRequestSeq.png>]
-<Images/UML/EmergencyConditionsSeq.png, id=560, 693.59125pt x 502.87875pt>
+ [30 <./Images/UML/RegisterDeviceSeq.png> <./Images/UML/MakeRequestSeq.png>]
+<Images/UML/EmergencyConditionsSeq.png, id=612, 693.59125pt x 502.87875pt>
 File: Images/UML/EmergencyConditionsSeq.png Graphic file (type png)
 
 <use Images/UML/EmergencyConditionsSeq.png>
 Package pdftex.def Info: Images/UML/EmergencyConditionsSeq.png used on input li
-ne 609.
+ne 639.
 (pdftex.def)             Requested size: 416.15796pt x 301.72957pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 <./Images/UML/EvaluateRequestSeq.png>] [30 <./Images/UML/EmergencyConditio
-nsSeq.png>]) [31] (./Files/alloy.tex) [32
-
-] (./Files/effort.tex) [33
-
-] (./main.bbl) [34
+ [31 <./Images/UML/EvaluateRequestSeq.png>] [32 <./Images/UML/EmergencyConditio
+nsSeq.png>]) [33] (./Files/alloy.tex
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 10.
+ (./alloy_code/model_signatures.als
+LaTeX Font Info:    Font shape `T1/zi4/bx/n' in size <8> not available
+(Font)              Font shape `T1/zi4/b/n' tried instead on input line 4.
+ [34
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
+ [35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+LaTeX Font Info:    Try loading font information for TS1+zi4 on input line 223.
+
+
+(c:/texlive/2016/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
+File: ts1zi4.fd 2014/06/22 Fontinst v1.933 font definitions for TS1/zi4.
+))) [37]
+(./Files/effort.tex) [38
+
+] (./main.bbl) [39
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FB8EEE4ADE8F7690CA41FB40E9B1DAD8;4130.
+(rerunfilecheck)             Checksum: 32302689AF3B2E1A3E478F84C58BD71D;4484.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
- 20626 strings out of 493014
- 377244 string characters out of 6137002
- 458314 words of memory out of 5000000
- 23522 multiletter control sequences out of 15000+600000
- 39418 words of font info for 60 fonts, out of 8000000 for 9000
+ 23124 strings out of 493014
+ 410616 string characters out of 6137002
+ 663464 words of memory out of 5000000
+ 25686 multiletter control sequences out of 15000+600000
+ 43421 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,21n,65p,1217b,597s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2016/tex
-mf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2016/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/lm/lm
-tt10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texli
-ve/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2016/texmf-dist
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (34 pages, 702375 bytes).
+ 59i,21n,65p,1217b,1973s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{c:/texliv
+e/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{c:/texlive/2016/texm
+f-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2016/texmf-dist/fonts/type1/publ
+ic/inconsolata/Inconsolata-zi4b.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pub
+lic/inconsolata/Inconsolata-zi4r.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/
+2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2016/texmf-dist/fo
+nts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (39 pages, 762230 bytes).
 PDF statistics:
- 650 PDF objects out of 1000 (max. 8388607)
- 569 compressed objects within 6 object streams
- 183 named destinations out of 1000 (max. 500000)
- 570 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1059 PDF objects out of 1200 (max. 8388607)
+ 966 compressed objects within 10 object streams
+ 475 named destinations out of 1000 (max. 500000)
+ 610 words of extra memory for PDF output out of 10000 (max. 10000000)
 

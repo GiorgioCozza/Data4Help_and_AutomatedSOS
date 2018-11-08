@@ -55,8 +55,8 @@
 	\label{figura6}
 \end{figure}
 
-%\subsubsection{ASOS User Interfaces}
-{\color{Blue}\subsubsection{ASOS User Interfaces}}
+%\subsubsection{ASOS: User Interfaces}
+{\color{Blue}\subsubsection{ASOS: User Interfaces}}
 
 \begin{figure}[H]
 	\centering
@@ -172,79 +172,79 @@ Carol is a young student, she is subjected to loss of consciousness episodes due
 %\subsubsection{Data4Help}
 {\color{Blue}\subsubsection{Data4Help}}
 
-\textbf{G1: A user can register personal health monitoring devices in the system}
+\textbf{[G1]: A user can register personal health monitoring devices in the system}
 \begin{itemize}
-	\item R1: The system must allow a registered user to associate a sensor device to the service
-	\item D1: The device to be registered, is supported by the system.
+	\item {[R1]: The system must allow a registered user to associate a sensor device to the service.}
+	\item{[D1]: The device to be registered, is supported by the system.}
 \end{itemize}
 
-\textbf{G2: TrackMe acquires periodically health parameters specifically related to a user.}
+\textbf{[G2]: TrackMe acquires periodically health parameters specifically related to a user}
 \begin{itemize}
-	\item R2: Each user is uniquely identified by the system.
-	\item R3: The system can acquire health data by specific sensors connected to the user's main device.
+	\item {[R2]: Each user is uniquely identified by the system.}
+	\item {[R3]: The system can acquire health data by specific sensors connected to the user's main device.}
 	\begin{itemize}
-		\item D2.1: Data acquired by the connected sensors is intended to be accurate.
+		\item {[D2]: Data acquired by the connected sensors is intended to be accurate.}
 	\end{itemize}
-	\item R4: The system must provide the possibility to users to insert specific health information that cannot be acquired through other monitoring devices.
+	\item {[R4]: The system must provide the possibility to users to insert specific health information that cannot be acquired through other monitoring devices.}
 	\begin{itemize}
-		\item D2.2: Health information manually provided by the user is intended to be correct.
+		\item {[D3]: Health information manually provided by the user is intended to be correct.}
 	\end{itemize}   
 	
 \end{itemize}
-\textbf{G2.1: Third parties can access health data of specific users, if expressively authorized by the them}
+\textbf{[G3]: Third parties can access health data of specific users, if expressively authorized by the them}
 
 \begin{itemize}
-	\item R4: The system must be able to identify and certificate the reliability of each organization that wants to request user data
-	\item R5: Each registered organization that wants to access health data of specific users must be able to formulate a request providing information related to the purpose of the request
-	\item R6: The system must notify each user of a third party request as soon as it is formulated, and allow him/her to accept or reject the request
-	\item R7: For each third party request the system should provide to the user, information related to the requestor and the purpose of the request
-	\item R8: Once a request is accepted, a third party must have full access to all collected data of the user
+	\item {[R5]: The system must be able to identify and certificate the reliability of each organization that wants to request user data.}
+	\item {[R6]: Each registered organization that wants to access health data of specific users must be able to formulate a request providing information related to the purpose of the request.}
+	\item {[R7]: The system must notify each user of a third party request as soon as it is formulated, and allow him/her to accept or reject the request.}
+	\item {[R8]: For each third party request the system should provide to the user information related to the requestor and the purpose of the request.}
+	\item {[R9]: Once a third party request is accepted by the user, the third party must have full access to the entire collection of data of the user.}
 \end{itemize}
 
 \raggedright
-\textbf{G2.2: Third-parties can request anonymous information about groups of people.}
+\textbf{[G4]: Third-parties can request anonymous information about groups of users}
 
 \begin{itemize}
-	\item R9: Third parties must be able to request health data of groups of anonymous users, according to several criteria without being expressively authorized.
-	\item R10: The system must prevent third parties to trace it back to specific user information through anonymous requests.
+	\item {[R10]: Third parties must be able to request health data of groups of anonymous users, according to several criteria without being expressively authorized.}
+	\item {[R11]: The system must prevent third parties to trace back to specific user information through anonymous requests.}
 \end{itemize}
 
 %\subsubsection{AutomatedSOS}
 {\color{Blue}\subsubsection{AutomatedSOS}}
 
-\textbf{G1: The user has the possibility to specify the diseases he/she has, so the system can evaluate which health parameters monitorize.}
+\textbf{[G5]: The user has the possibility to specify the diseases he/she has, so the system can evaluate which health parameters monitorize}
 
 \begin{itemize}
-	\item R1: The system must give the possibility to the user to specify which diseases he/she has.
+	\item {[R12]: The system must give the possibility to the user to specify which diseases he/she has.}
 	\begin{itemize}
-		\item D1: The user is registered to AutomatedSOS.
+		\item {[D4]: The user is registered to AutomatedSOS.}
 	\end{itemize} 
-	\item R2: The system must prevent the possibility to use the service, if the minimum required sensors are missing
+	\item {[R13]: The system must prevent the possibility to use the service, if the minimum required sensors are missing.}
 \end{itemize}
 
-\textbf{ G2: An ambulance may be sent within 5 seconds, if an emergency or anomaly condition is detected.}
+\textbf{[G6]: An ambulance may be sent within 5 seconds, if an emergency or anomaly condition is detected}
 
 \begin{itemize}
-	\item R3: The system must be able to distinguish and detect emergency or anomaly conditions occurring to a specific user
-	\item R4: When an anomaly condition is detected, the system must send a notification to the user, asking if it is an emergency condition.
-	\item R5: When an emergency condition is detected, the nearest ambulance must be alerted, providing all the information about the situation.
+	\item {[R14]: The system must be able to distinguish and detect emergency or anomaly conditions occurring to a specific user.}
+	\item {[R15]: When an anomaly condition is detected, the system must send a notification to the user, asking if it is an emergency condition.}
+	\item {[R16]: When an emergency condition is detected, the nearest ambulance must be alerted, providing all the information about the situation.}
 	\begin{itemize}
-		\item D2.1: The sensor devices monitoring the patient are providing reliable data.
-		\item D2.2: The position of both the ambulance and the user are accurately provided by the GPS system.
+		\item {[D5]: The sensor devices monitoring the patient are providing reliable data.}
+		\item {[D6]: The position of both the ambulance and the user are accurately provided by the GPS system.}
 	\end{itemize}
 \end{itemize}
 
-\textbf{G3: A user designated as Supervisor of another one, is notified of both emergency and anomaly events occuring to the supervised user.}
+\textbf{[G7]: A user designated as Supervisor of another one, is notified of both emergency and anomaly events occuring to the supervised user}
 
 \begin{itemize}[itemsep=0em]
-	\item R7: A user must be allowed by the system to become Supervisor of another one.
+	\item {[R17]: A user must be allowed by the system to become Supervisor of another one.}
 	\begin{itemize}
-		\item D3.2: The Supervisor is a Data4Help registered user.
+		\item {[D7]: The Supervisor is a Data4Help registered user.}
 	\end{itemize}
-	\item R8: Each supervised user must be able to accept or reject the possibility to have a Supervisor.
-	\item R9: The Supervisor must be notified by the system of all emergency and anomaly conditions occurring to the supervised user.
+	\item {[R18]: Each supervised user must be able to accept or reject the possibility to have a Supervisor.}
+	\item {[R19]: The Supervisor must be notified by the system of all emergency and anomaly conditions occurring to the supervised user.}
 	\begin{itemize}[topsep=0em]
-		\item D3.1: The Supervisor is available when the notification is sent.
+		\item {[D8]: The Supervisor is available when the notification is sent.}
 	\end{itemize}
 \end{itemize}
 
@@ -277,7 +277,7 @@ Carol is a young student, she is subjected to loss of consciousness episodes due
 			\textbf{Exceptions:} & 
 			\begin{itemize}[itemsep=-0.2em, topsep=0em]
 				\item 3) The user is already registered to the service, a notification will be sent, preventing him/her to register again.
-				\item 4) The user skips the device registration and the system redirect the user directly to his/her account
+				\item 4) The user skips the device registration and the system redirect the user to his/her account
 			\end{itemize} \\ \cline{1-2}
 			\small{\textbf{Special Requirements:}} & None \\ \hline
 	\end{tabular}} \quad
@@ -324,7 +324,7 @@ Carol is a young student, she is subjected to loss of consciousness episodes due
 			\textbf{Exceptions:} & 
 			\begin{itemize}[itemsep=-0.2em, topsep=-2em, partopsep=-1em]
 				\item If the registered sensor corresponds to a new monitored parameter the information is associated to the current user in the system 
-				\item If the device is not supported, the system warns the user and denies the device registration.
+				\item If the device is not supported, the system sends a warning to the user and denies the device registration.
 			\end{itemize} \\ \cline{1-2}
 			\textbf{Special Requirement:} & None \\ \hline
 	\end{tabular}} \quad
@@ -384,7 +384,7 @@ Carol is a young student, she is subjected to loss of consciousness episodes due
 			\cline{1-2}
 			\multicolumn{2}{|c|}{\textbf{Make a Request}} \\ \cline{1-2}
 			\textbf{Actors:} & Third Party \\ \cline{1-2}
-			\textbf{Entry Conditions:} &  The third party has already signed up for D4H  \\ \cline{1-2}
+			\textbf{Entry Conditions:} &  The third party has already signed up for Data4Help  \\ \cline{1-2}
 			\textbf{Flow of Events:} & 
 			\begin{enumerate}[itemsep=-0.2em, topsep=0em]
 				\item The third party clicks on "Create Request"
@@ -411,7 +411,7 @@ Carol is a young student, she is subjected to loss of consciousness episodes due
 			\multicolumn{2}{|c|}{\textbf{Evaluate Request}} \\ \cline{1-2}
 			\textbf{Actors:} & User \\ \cline{1-2}
 			\textbf{Entry Conditions:} & \begin{itemize}[itemsep=-0.2em, topsep=0em]
-				\item The user is logged in Data4help
+				\item The user is logged in Data4Help
 				\item The user is notified by the system that a third party request has been received
 			\end{itemize} \\ \cline{1-2}
 			\textbf{Flow of Events:} & \begin{enumerate}[itemsep=-0.2em, topsep=0em]
@@ -444,7 +444,7 @@ Carol is a young student, she is subjected to loss of consciousness episodes due
 			\begin{enumerate}[itemsep=-0.2em, topsep=0em]
 				\item The third party clicks on "Create Anonymous Request"
 				\item The third party specifies the search criteria required to find the group of anonymous users
-				\item The system checks if number of involved anonymous users are at least 1000, according the search criteria
+				\item The system checks if the number of involved anonymous users are at least 1000, according the search criteria
 				\item The system notifies the requestor that a valid dataset has been found
 			\end{enumerate}\\ \cline{1-2}
 			\textbf{Exit Conditions:} & The third party obtains the anonymous dataset \\ \cline{1-2}
@@ -477,7 +477,7 @@ Carol is a young student, she is subjected to loss of consciousness episodes due
 				\item The user clicks on "Log in"
 				\item The system checks if the credencials are valid
 			\end{enumerate}\\ \cline{1-2}
-			\textbf{Exit Conditions:} & The system redirects the user to his/her personal ASOS account\\ \cline{1-2}
+			\textbf{Exit Conditions:} & The system redirects the user to his/her personal AutomatedSOS account\\ \cline{1-2}
 			\textbf{Exceptions:} & \begin{itemize}[topsep=0em, itemsep=-0.2em]
 				\item If the user inserts wrong credencials the system sends a warning and denies the access
 				\item If the user has logged in for the first time, the system starts to \underline{profile the health conditions of the user} (see:"Change User Health Profile")
@@ -518,7 +518,7 @@ Carol is a young student, she is subjected to loss of consciousness episodes due
 			\cline{1-2}
 			\multicolumn{2}{|c|}{\textbf{Send Supervisor Request}} \\ \cline{1-2}
 			\textbf{Actors:} & User \\ \cline{1-2}
-			\textbf{Entry Conditions:} & The user is logged in ASOS \\ \cline{1-2}
+			\textbf{Entry Conditions:} & The user is logged in AutomatedSOS \\ \cline{1-2}
 			\textbf{Flow of Events:} & \begin{enumerate}[topsep=0em, itemsep=-0.2em]
 				\item The user clicks on "Become Supervisor"
 				\item The system asks the identification of who should be supevised
@@ -528,7 +528,7 @@ Carol is a young student, she is subjected to loss of consciousness episodes due
 			\end{enumerate}\\ \cline{1-2}
 			\textbf{Exit Conditions:} & The receiver is notified of the supervisor request\\ \cline{1-2}
 			\textbf{Exceptions:} & \begin{itemize}
-				\item 4) The research criteria do not match any existing ASOS user
+				\item 4) The research criteria do not match any existing AutomatedSOS user
 			\end{itemize} \\ \cline{1-2}
 			\textbf{Special Requirements:} & None \\ \cline{1-2}
 	\end{tabular}} \quad
@@ -541,13 +541,13 @@ Carol is a young student, she is subjected to loss of consciousness episodes due
 			\multicolumn{2}{|c|}{\textbf{Anomaly Condition is Detected}} \\ \cline{1-2}
 			\textbf{Actors:} & User\\ \cline{1-2}
 			\textbf{Entry Conditions:} & \begin{itemize}[topsep=0em, itemsep=-0.2em]
-				\item The user is logged in AutomatedSOS
-				\item The ASOS Monitor Mode is switched on
-				\item ASOS system has detected an Anomaly Condition 
+				\item The user is logged in AutomateddSOS
+				\item The AutomadesSOS Monitor Mode is switched on
+				\item AutomatedSOS system has detected an Anomaly Condition 
 			\end{itemize} \\ \cline{1-2}
 			\textbf{Flow of Events:} & \begin{enumerate}[topsep=0em, itemsep=-0.2em]
 				\item The user is notified by the system that asks to him/her if an ambulance is needed 
-				\item The user confirms that is a matter of emergency
+				\item The user confirms that is an emergency
 				\item The system turns the anomaly into an emergency condition
 			\end{enumerate}\\ \cline{1-2}
 			\textbf{Exit Conditions:} & The system raises an \underline{emergency condition} (see:"An Emergency Condition is Detected")\\ \cline{1-2}
@@ -567,7 +567,7 @@ Carol is a young student, she is subjected to loss of consciousness episodes due
 			\multicolumn{2}{|c|}{\textbf{Evaluate Supervisor Request}} \\ \cline{1-2}
 			\textbf{Actors:} & User \\ \cline{1-2}
 			\textbf{Entry Conditions:} & \begin{itemize}[topsep=0em, itemsep=-0.2em]
-				\item The user is logged in ASOS
+				\item The user is logged in AutomatedSOS
 				\item The user is notified that a Supervisor request has been received
 			\end{itemize} \\ \cline{1-2}
 			\textbf{Flow of Events:} & \begin{enumerate}[topsep=0em, itemsep=-0.2em]
@@ -601,10 +601,10 @@ Carol is a young student, she is subjected to loss of consciousness episodes due
 			\end{enumerate}\\ \cline{1-2}
 			\textbf{Exit Conditions:} & The system is notified that a RescueSquad has been dispatched to the user \\ \cline{1-2}
 			\textbf{Exceptions:} & \begin{itemize}
-				\item 2) If no RescueSquad for the alerted hospital is available, the system is informed about and sends the request to the ECM of the second nearest hospital, and so on if also the second attempt fails. If one of the alerted ECMs dispatches a RescueSquad for first, the system notifies the others of the dispach.
+				\item 2) If no RescueSquad for the alerted hospital is available, the system is informed about and sends the request to the ECM of the second nearest hospital, and so on if also the second attempt fails. If one of the alerted ECMs dispatches a RescueSquad for first, the system notifies the others of the dispatch.
 				\item 1) If the user is associated to one or more Supervisors, these ones are also alerted of the emergency and informed of the position of the user. 
 			\end{itemize} \\ \cline{1-2}
-			\textbf{Special Requirements:} & the time spent between the emergency detection and the RescueSquad dispatch must be at most 5 seconds \\ \cline{1-2}
+			\textbf{Special Requirements:} & The time spent between the emergency detection and the RescueSquad dispatch must be at most 5 seconds \\ \cline{1-2}
 	\end{tabular}} \quad
 \end{table}
 
@@ -652,7 +652,7 @@ Carol is a young student, she is subjected to loss of consciousness episodes due
 %\subsection {Performance Requirements}
 {\color{Blue}\subsection{Performance Requirements}}
 
-Both d4h and asos aim to help the highest number of people. asos must guarantee that the information of the users are sent in real time to the application so the emergency can be solved as soon as possible. A delay higher than 3 seconds can’t be tolerated. D4h have to rendere disponibili the information of each user during an entire month.
+Both Data4Help and AutomatedSOS aim to help the highest number of people. AutomatedSOS must guarantee that the user's information is sent in real time to the application so the emergency can be solved as soon as possible. A delay higher than 3 seconds can’t be tolerated. Data4Help have to make avaiable the information of each user during an entire month.
 \paragraph{}
 
 
@@ -663,30 +663,30 @@ Both d4h and asos aim to help the highest number of people. asos must guarantee 
 {\color{Blue}\subsection{Software System Attributes}}
 %\subsubsection{Reliability}
 {\color{Blue}\subsubsection{Reliability}}
-D4H presents a critical factor related to the data processing on server side. As already motivated, this huge amount of information related to each connected user should be processed in real-time especially when supporting ASOS users, any failure of both the services could potentially lead to the death of a person. A domino effect, in which a generic fail may cause the blackout of the entire service is unacceptable and must be avoided.
+Data4Help presents a critical factor related to the data processing on server side. As already motivated, this huge amount of information related to each connected user should be processed in real-time especially when supporting AutomatedSOS users, any failure of both the services could potentially lead to the death of a person. A domino effect, in which a generic fail may cause the blackout of the entire service is unacceptable and must be avoided.
 \paragraph{}
 
 %\subsubsection{Availability}
 {\color{Blue}\subsubsection{Availability}}
-The software has to be online 24/7, in particular the ASOS part because its chore is to guarantee a constant control of the users, in this case the system should be kept down for the least time possible, for performing maintenance. For minimizing the risk of having interruption of service for patients who need assistance, an availability of at least 99.999\% has to be granted. It is an exigent but required value. Since ASOS relies on D4H for collecting data, both the services should have the same availability. Unfortunately this requirement is too much expensive for all the users of D4H. It is sufficient to provide such level of availability only for all the users who rely on ASOS and an value of 99.99\% for the remaining ones, this solution can reduce appreciably the costs of maintenance.
+The software has to be online 24/7, in particular the AutomatedSOS part because its chore is to guarantee a constant control of the users. In this case the system should be kept down for the least time possible when performing maintenance. For minimizing the risk of having interruption of service for patients who need assistance, an availability of at least 99.999\% has to be granted. It is an exigent but required value. Since AutomatedSOS relies on Data4Help for collecting data, both the services should have the same availability. Unfortunately this requirement is too expensive for all the users of D4H. It is sufficient to provide such level of availability only for all the users who rely on AutomatedSOS and a value of 99.99\% for the remaining ones. This solution can reduce appreciably the costs of maintenance.
 \paragraph{}
 
 %\subsubsection{Security}
 {\color{Blue}\subsubsection{Security}}
-Companies and organizations that want to rely on the service must certificate their identity. For the first version of the application, a third party has to provide to the service a valid digital certification, released by a well-known and reliable Certification Authority. This represent an essential security requirement to also provide a strong encrypted communication between the third party and TrackMe. Since TrackMe is also provided with a digital certification, user data sent to the server are encrypted using TLS (Transport Layer Security). \par
+Companies and organizations that want to rely on the service must certificate their identity. For the first version of the application, a third party has to provide to the service a valid digital certification, released by a well-known and reliable Certification Authority. This represent an essential security requirement that also provide a strong encrypted communication between the third party and TrackMe. Since TrackMe is also provided with a digital certification, user data sent to the server are encrypted using TLS (Transport Layer Security). \par
 Passwords of both users and third parties, must be hashed and salted on server side.
 \paragraph{}
 
 %\subsubsection{Maintainability}
 {\color{Blue}\subsubsection{Maintainability}}
 
-Especially for D4H, the system will deal with an enormous amount of data coming from a wide variety of sensors, maintainability challenges will concern mainly with the support of new sensor devices appearing in the market that must be supported by the system. The architecture should facilitate the introduction of new products to speed up updated versions of the system.
+Especially for Data4Help, the system will deal with an enormous amount of data coming from a wide variety of sensors. Maintainability challenges will concern mainly with the support of new sensor devices appearing in the market that must be supported by the system. The architecture should facilitate the introduction of new products to speed up updated versions of the system.
 \paragraph{}
 
 %\subsubsection{Portability}
 {\color{Blue}\subsubsection{Portability}}
 
-The application have to be developed in order to support all the android devices with an API level higher or equal to 15 (Android 4.0, Ice Cream Sandwich).
+The application have to be developed in order to support all the Android devices with an API level higher or equal to 15 (Android 4.0, Ice Cream Sandwich).
 
 
 

@@ -4,11 +4,41 @@ Here you can see how to include an image in your document.
 Here is the command to refer to another element (section, figure, table, ...) in the document: \emph{As discussed in Section~\ref{sect:overview} and as shown in Figure~\ref{fig:metamodel}, ...}. Here is how to introduce a bibliographic citation~\cite{DAM}. Bibliographic references should be included in a \texttt{.bib} file. 
 
 Table generation is a bit complicated in Latex. You will soon become proficient, but to start you can rely on tools or external services. See for instance this \href{https://www.tablesgenerator.com}{https://www.tablesgenerator.com}. 
+{\color{Blue}{\subsection{Product Perspective}}}
+{\color{Blue}{\subsubsection{Data4Help}}}
+The main goal of Data4Help is to guarantee control on the health parameters of the users in order to give the possibility to third parties to obtain the data. Every user registered in d4h knows that his/her registered parameters could be used for market information, but also for helping researchers to discovers new treatments. This possibility is made by providing two types of registration: the user and the third party.\\
+There will be the possibility for the users to accept or deny personal requests from third parties, in this way there will be no privacy violations. On the other hand, every request from the third party that comprehend at least 1000 of anonymous users will not require the consultation of every single user involved. In order to control the user’s parameters is possible to connect to the service various types of sensor devices.\\
 
 
-\subsection {User Characteristics}
+{\color{Blue}{\subsubsection{AutomatedSOS}}}
+AutomatedSOS wants the users to feel safe. Provided the necessary sensor devices, the system guarantee a constant control on the health parameters. Every alteration that could possibly lead to an emergency is immediately notified to the user that could confirm the emergency condition or deny. Alteration that are definitely sign of emergency lead immediately to an ambulance call.\\
+Obviously, in order to guarantee that the number of false positives remains as low as possible, the user is required to give correct health information when he/she registers to the service. \\
+Is given also the possibility to accept supervisor users that are able to access to the entire data of the user supervised. In this way, in case of emergency, there will be someone promptly informed.
+
+
+\paragraph{}
+{\color{Blue}{\subsection{User Characteristics}}}
+
 In both, Data 4 Help and Automted SOS the main actor is who we already called User. He/She is the one that provides health information to TrackMe while is monitored after the registration to the app. Without this presence, the application does not have any reason to exist.
 
-Another actor is the Thrid Party. It looks for the information provided by the users for its own interests (from business to healthcare)
+Another actor is the Thrid Party. It looks for the information provided by the users for its own interests (from business to healthcare).
+\paragraph{}
 
-\subsection{Assumptions, Dependencies and Constraints}
+{\color{Blue}{\subsection{Assumptions, Dependencies and Constraints}}}
+{\color{Blue}{\subsubsection{Domain Assumptions}}}
+\paragraph{}
+\textbf{Data4Help}
+\begin{itemize}
+\item \textbf{[D1]:} The device to be registered, is supported by the system.
+\item\textbf{[D2]:} Data acquired by the connected sensors is intended to be accurate.
+\item \textbf{[D3]:} Health information manually provided by the user is intended to be
+\end{itemize}
+\paragraph{}
+\textbf{AutomatedSOS}
+\begin{itemize}
+\item\textbf{ [D4]:} The user is registered to AutomatedSOS.
+\item \textbf{[D5]:} The sensor devices monitoring the patient are providing reliable data.
+\item\textbf{[D6]:} The position of both the ambulance and the user are accurately
+\item\textbf{[D7]:} The Supervisor is a Data4Help registered user
+\item\textbf{[D8]:} The Supervisor is available when the notification is sent.
+\end{itemize}
