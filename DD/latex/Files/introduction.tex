@@ -1,0 +1,24 @@
+
+
+
+{\color{Blue}{\subsection{Purpose}}}
+As explained in the previous artifact, Data4Help and AutomatedSOS, since handling the same set of data types, but concerning with different purposes, are physically separated applications. The first one represents a privacy-guarateed service to manage third party requests of access to user-provided health data, the second is a service concepted to ensure first assistance whenever dangerous conditions for registered users are detected. The discussion at this point should be focused specifically on the architecture behind these two services, analyzing the way both the applications will collect health data from the monitoring devices, how TrackMe servers will manage such data and more. To this end, since TrackMe wants to not depend strictly on cloud infrastructure providers for commercial and security reasons, it decided to host completely its own server farm. For the moment the system will be centralized, but easily extensible for future needs, according to the growth factor of the number of customers in order to form a private cloud infrastructure built on top of a distributed database system. Unfortunately, the deadline prevents a detailed analysis of this solution. This Design Document, however, will provide an overall definition of the main system components and the relative interactions, an in-depth discussion about the chosen architectural patterns and the complete plan for verification and validation steps. The audience for this artifact is tighter than the one of the RASD due to the more technical language, in particular, it is oriented to all the persons involved in engineering the software-to-be. In any case, in order to facilitate the comprehension of this document a previous RASD consultation is strongly suggested.
+
+{\color{Blue}{\subsection{Scope}}}
+In this wide software ecosystem there are two common factors
+
+
+
+
+
+{\color{Blue}{\subsection{Definitions, Acronyms, Abbreviations}}}
+
+
+{\color{Blue}{\subsection{Revision History}}}
+
+
+{\color{Blue}{\subsection{Reference Documents}}}
+
+
+{\color{Blue}{\subsection{Document Structure}}}
+

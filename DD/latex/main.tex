@@ -1,0 +1,116 @@
+\input{commandsFile}
+
+
+\begin{document}
+
+%TITLE PAGE
+
+\begin{titlepage}
+
+
+%LOGO
+
+{\begin{table}[t!]
+\centering
+\begin{tabu} to \textwidth { X[1.3,r,p] X[1.7,l,p] }
+\textcolor{Blue}
+{\textbf{\small{TrackMe project Giorgio Cozza and Barbara Ferretti}}} & \includegraphics[scale=0.5]{Images/PolimiLogo}
+\end{tabu}
+\end{table}}~\\ [7cm]
+
+%TITLE 
+
+\begin{center}
+
+%Replace the text string with your title
+{\textcolor{Blue}{\textbf{\Huge{Data4Help and AutomatedSOS}}}} \\ [0,5cm]
+{\textcolor{Blue}{\textbf{\LARGE{Design Document}}}} \\ [1cm]
+
+
+\end{center}
+
+\end{titlepage}
+
+%Define deliverable specific info
+%Replace cell contents where needed
+\begin{table}[h!]
+\begin{tabu} to \textwidth { X[0.3,r,p] X[0.7,l,p] }
+\hline
+
+\textbf{Deliverable:} & DD\\
+\textbf{Title:} & Data4Help and AutomatedSOS - Design Document \\
+\textbf{Authors:} & Giorgio Cozza, Barbara Ferretti \\
+\textbf{Version:} & 1.0 \\ 
+\textbf{Date:} & 10-December-2018 \\
+\textbf{Download page:} & https://github.com/GiorgioCozza/CozzaFerretti.git \\
+\textbf{Copyright:} & Copyright © 2018, Giorgio Cozza and Barbara Ferretti – All rights reserved \\
+\hline
+\end{tabu}
+\end{table}
+
+
+
+
+\setcounter{page}{2}
+
+
+%------------------------------------------------------------------------------------------------------------------------------------------------
+\newpage
+\addcontentsline{toc}{section}{Table of Contents}
+\tableofcontents
+\newpage
+\addcontentsline{toc}{section}{List of Figures}
+\listoffigures
+\addcontentsline{toc}{section}{List of Tables}
+\listoftables
+
+%------------------------------------------------------------------------------------------------------------------------------------------------
+\clearpage
+{\color{Blue}{\section{Introduction}}}
+\label{sect:introduction}
+\input{Files/introduction}
+
+%------------------------------------------------------------------------------------------------------------------------------------------------
+\clearpage
+{\color{Blue}{\section{Architectural Design}}}
+\label{sect:architecture}
+\input{Files/architecture}
+
+%------------------------------------------------------------------------------------------------------------------------------------------------
+\clearpage
+{\color{Blue}{\section{User Interface Design}}}
+\label{sect:interfaces}
+\input{Files/interfaces}
+
+%------------------------------------------------------------------------------------------------------------------------------------------------
+\clearpage
+{\color{Blue}{\section{Requirements Traceability}}}
+\label{sect:requirementsMap}
+\input{Files/requirementsMap}
+
+%------------------------------------------------------------------------------------------------------------------------------------------------
+\clearpage
+{\color{Blue}{\section{Implementation, Integration and Test Plan}}}
+\label{sect:testPlan}
+\input{Files/testPlan}
+
+
+%------------------------------------------------------------------------------------------------------------------------------------------------
+\clearpage
+{\color{Blue}{\section{Effort Spent}}}
+\label{sect:effort}
+\input{Files/effort}
+
+
+%------------------------------------------------------------------------------------------------------------------------------------------------
+
+\clearpage
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{plain}
+\bibliography{main}
+%------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+\end{document}
