@@ -2,23 +2,53 @@
 
 
 {\color{Blue}{\subsection{Purpose}}}
-As explained in the previous artifact, Data4Help and AutomatedSOS, since handling the same set of data types, but concerning with different purposes, are physically separated applications. The first one represents a privacy-guarateed service to manage third party requests of access to user-provided health data, the second is a service concepted to ensure first assistance whenever dangerous conditions for registered users are detected. The discussion at this point should be focused specifically on the architecture behind these two services, analyzing the way both the applications will collect health data from the monitoring devices, how TrackMe servers will manage such data and more. To this end, since TrackMe wants to not depend strictly on cloud infrastructure providers for commercial and security reasons, it decided to host completely its own server farm. For the moment the system will be centralized, but easily extensible for future needs, according to the growth factor of the number of customers in order to form a private cloud infrastructure built on top of a distributed database system. Unfortunately, the deadline prevents a detailed analysis of this solution. This Design Document, however, will provide an overall definition of the main system components and the relative interactions, an in-depth discussion about the chosen architectural patterns and the complete plan for verification and validation steps. The audience for this artifact is tighter than the one of the RASD due to the more technical language, in particular, it is oriented to all the persons involved in engineering the software-to-be. In any case, in order to facilitate the comprehension of this document a previous RASD consultation is strongly suggested.
+As explained in the previous artifact, Data4Help and AutomatedSOS, since handling the same set of data types, but concerning with different purposes, are physically separated applications. The first one represents a privacy-guaranteed service to manage third party requests of access to user-provided health data, the second is a service conceived to ensure first assistance whenever dangerous conditions for registered users are detected. The discussion at this point should be focused specifically on the architecture behind these two services, analyzing the way both the applications will collect health data from the monitoring devices, how TrackMe servers will manage such data and more. To this end, since TrackMe wants to not depend strictly on external cloud infrastructures for commercial and data-security reasons, it decided to host completely its own server farm. For the moment the system will be centralized, but easily \textbf{distributable} for future needs, according to the growth factor of the customer number. This, in order to form a private cloud infrastructure built on top of a distributed database system. Unfortunately, the deadline prevents a detailed analysis of this solution for further versions of the project.\\
+This Design Document, however, will provide an overall definition of the main system components and the relative interactions, an in-depth discussion about the chosen architectural patterns and the plan for integration, verification and validation steps. The audience for this artifact is tighter than the one of the RASD due to the more technical language, in particular, it is oriented to all the people involved in engineering the software-to-be. In any case, in order to facilitate the comprehension of this document a previous RASD consultation is strongly suggested.
 
 {\color{Blue}{\subsection{Scope}}}
-In this wide software ecosystem there are two common factors
 
 
 
 
 
 {\color{Blue}{\subsection{Definitions, Acronyms, Abbreviations}}}
+{\color{Blue}{\subsubsection{Definitions}}}
+{\color{Blue}\subsubsection{Acronyms}}
+\textbf{ASOS:} AutomatedSOS\\
+\textbf{D4H:} Data4Help\\
+\textbf{API:} Application Programming Interface\\
+\textbf{RASD:} Requirement Analysis Specification Document \\
+\textbf{HW:} Hardware \\
+%\paragraph{}
 
+{\color{Blue}\subsubsection{Abbreviations}}
+\textbf{[Gn]:} n-th Goal\\
+\textbf{[Rn]:} n-th Requirement\\
+%\paragraph{}
 
 {\color{Blue}{\subsection{Revision History}}}
-
+Up to now, there are no revision of this document as this is the first release.
 
 {\color{Blue}{\subsection{Reference Documents}}}
 
 
 {\color{Blue}{\subsection{Document Structure}}}
+{\color{Blue}{\subsubsection{Chapter 1}}}
+In the first chapter is given a general presentation of the aim of this document. Moreover are given other basic information in order to read easily the entire work, like the dictionary for example.
+%\paragraph{}
 
+{\color{Blue}\subsubsection{Chapter 2}}
+
+\paragraph{}
+
+{\color{Blue}\subsubsection{Chapter 3}}
+
+\paragraph{}
+
+{\color{Blue}\subsubsection{Chapter 4}}
+
+\paragraph{}
+
+{\color{Blue}\subsubsection{Chapter 5}}
+
+\paragraph{}
