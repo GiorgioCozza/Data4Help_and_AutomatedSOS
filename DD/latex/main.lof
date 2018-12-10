@@ -1,0 +1,21 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces High-level View of the System\relax }}{9}{figure.caption.5}
+\contentsline {figure}{\numberline {2}{\ignorespaces D4H Client App, Component Diagram\relax }}{11}{figure.caption.6}
+\contentsline {figure}{\numberline {3}{\ignorespaces ASOS Client App, Component Diagram\relax }}{12}{figure.caption.7}
+\contentsline {figure}{\numberline {4}{\ignorespaces High-level View of Session Management\relax }}{13}{figure.caption.8}
+\contentsline {figure}{\numberline {5}{\ignorespaces Emergency Handling and User Monitoring on Server Side, Component Diagram\relax }}{14}{figure.caption.9}
+\contentsline {figure}{\numberline {6}{\ignorespaces Device and TP Request Managing on Server Side, Component Diagram\relax }}{15}{figure.caption.10}
+\contentsline {figure}{\numberline {7}{\ignorespaces Notification Format\relax }}{16}{figure.caption.11}
+\contentsline {figure}{\numberline {8}{\ignorespaces E-R Diagram for Database Modeling\relax }}{17}{figure.caption.12}
+\contentsline {figure}{\numberline {9}{\ignorespaces Deployment Diagram\relax }}{18}{figure.caption.13}
+\contentsline {figure}{\numberline {10}{\ignorespaces Register Device, Sequence Diagram\relax }}{19}{figure.caption.14}
+\contentsline {figure}{\numberline {11}{\ignorespaces Make a Request, Sequence Diagram\relax }}{20}{figure.caption.15}
+\contentsline {figure}{\numberline {12}{\ignorespaces Evaluate a Request, Sequence Diagram\relax }}{21}{figure.caption.16}
+\contentsline {figure}{\numberline {13}{\ignorespaces Emergency Condition, Sequence Diagram\relax }}{22}{figure.caption.17}
+\contentsline {figure}{\numberline {14}{\ignorespaces D4H Client App, Interface Dependencies\relax }}{23}{figure.caption.18}
+\contentsline {figure}{\numberline {15}{\ignorespaces ASOS Client App, Interface Dependencies\relax }}{23}{figure.caption.19}
+\contentsline {figure}{\numberline {16}{\ignorespaces Server Logic, Interface Dependencies\relax }}{24}{figure.caption.20}
+\contentsline {figure}{\numberline {17}{\ignorespaces Data4Help User UX diagram\relax }}{26}{figure.caption.21}
+\contentsline {figure}{\numberline {18}{\ignorespaces Data4Help Third Party UX diagram\relax }}{27}{figure.caption.22}
+\contentsline {figure}{\numberline {19}{\ignorespaces AutomatedSOS user UX diagram\relax }}{28}{figure.caption.23}
+\contentsline {figure}{\numberline {20}{\ignorespaces ERM Communication Testing\relax }}{34}{figure.caption.24}
+\contentsline {figure}{\numberline {21}{\ignorespaces Analyzer-ERM Integration and Testing\relax }}{34}{figure.caption.25}
