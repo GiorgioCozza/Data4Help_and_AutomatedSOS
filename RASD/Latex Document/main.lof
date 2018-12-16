@@ -1,10 +1,22 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces User Login\relax }}{12}{figure.caption.22}
-\contentsline {figure}{\numberline {2}{\ignorespaces Device not supported\relax }}{12}{figure.caption.22}
-\contentsline {figure}{\numberline {3}{\ignorespaces Pending TP requests\relax }}{12}{figure.caption.23}
-\contentsline {figure}{\numberline {4}{\ignorespaces Evaluate Request\relax }}{12}{figure.caption.23}
-\contentsline {figure}{\numberline {5}{\ignorespaces TP make a request\relax }}{13}{figure.caption.24}
-\contentsline {figure}{\numberline {6}{\ignorespaces TP make an anonymous request\relax }}{13}{figure.caption.25}
-\contentsline {figure}{\numberline {7}{\ignorespaces User Health Profile part 1\relax }}{14}{figure.caption.26}
-\contentsline {figure}{\numberline {8}{\ignorespaces User Health Profile part 2\relax }}{14}{figure.caption.26}
-\contentsline {figure}{\numberline {9}{\ignorespaces Supervisor Invitation\relax }}{14}{figure.caption.27}
-\contentsline {figure}{\numberline {10}{\ignorespaces Anomaly Detection\relax }}{14}{figure.caption.27}
+\contentsline {figure}{\numberline {1}{\ignorespaces Data4Help Class Diagram\relax }}{10}{figure.caption.17}
+\contentsline {figure}{\numberline {2}{\ignorespaces AutomatedSOS Class Diagram\relax }}{11}{figure.caption.19}
+\contentsline {figure}{\numberline {3}{\ignorespaces User Login\relax }}{15}{figure.caption.22}
+\contentsline {figure}{\numberline {4}{\ignorespaces Device not supported\relax }}{15}{figure.caption.22}
+\contentsline {figure}{\numberline {5}{\ignorespaces Pending TP requests\relax }}{15}{figure.caption.23}
+\contentsline {figure}{\numberline {6}{\ignorespaces Evaluate Request\relax }}{15}{figure.caption.23}
+\contentsline {figure}{\numberline {7}{\ignorespaces TP make a request\relax }}{16}{figure.caption.24}
+\contentsline {figure}{\numberline {8}{\ignorespaces TP make an anonymous request\relax }}{16}{figure.caption.25}
+\contentsline {figure}{\numberline {9}{\ignorespaces User Health Profile part 1\relax }}{17}{figure.caption.26}
+\contentsline {figure}{\numberline {10}{\ignorespaces User Health Profile part 2\relax }}{17}{figure.caption.26}
+\contentsline {figure}{\numberline {11}{\ignorespaces Supervisor Invitation\relax }}{17}{figure.caption.27}
+\contentsline {figure}{\numberline {12}{\ignorespaces Anomaly Detection\relax }}{17}{figure.caption.27}
+\contentsline {figure}{\numberline {13}{\ignorespaces Data4Help Use Case Diagram\relax }}{27}{figure.caption.36}
+\contentsline {figure}{\numberline {14}{\ignorespaces AutomatedSOS Use Case Diagram\relax }}{31}{figure.caption.44}
+\contentsline {figure}{\numberline {15}{\ignorespaces Register Device Event Sequence\relax }}{32}{figure.caption.45}
+\contentsline {figure}{\numberline {16}{\ignorespaces Make Request Event Sequence\relax }}{32}{figure.caption.46}
+\contentsline {figure}{\numberline {17}{\ignorespaces Evaluate Request Event Sequence\relax }}{33}{figure.caption.47}
+\contentsline {figure}{\numberline {18}{\ignorespaces Emergency Condition Detection Event Sequence\relax }}{33}{figure.caption.48}
+\contentsline {figure}{\numberline {19}{\ignorespaces Consistency Test of D4H model\relax }}{42}{figure.caption.54}
+\contentsline {figure}{\numberline {20}{\ignorespaces Consistency Test of ASOS model\relax }}{42}{figure.caption.55}
+\contentsline {figure}{\numberline {21}{\ignorespaces Data4Help world generated after testing\relax }}{43}{figure.caption.56}
+\contentsline {figure}{\numberline {22}{\ignorespaces AutomatedSOS world generated after testing\relax }}{43}{figure.caption.57}

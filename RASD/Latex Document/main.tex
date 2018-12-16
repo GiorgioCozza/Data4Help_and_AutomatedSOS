@@ -1,13 +1,17 @@
 \input{commandsFile}
-\usepackage{hyperref}
-\usepackage{inconsolata}
-\usepackage{listings}
 \usepackage{alloy-style}
+\usepackage{inconsolata}
+\usepackage{hyperref}
 
-\hypersetup{
+\hypersetup{%
 	colorlinks = true,
-	linkcolor = black
+	linkcolor  = black
 }
+
+\lstset{
+	basicstyle=\ttfamily,
+}
+
 \begin{document}
 
 %TITLE PAGE
@@ -31,7 +35,7 @@
 
 %Replace the text string with your title
 {\textcolor{Blue}{\textbf{\Huge{Data4Help and AutomatedSOS}}}} \\ [0,5cm]
-{\textcolor{Blue}{\textbf{\LARGE{Requirement Analysis and Specification Document}}}} \\ [1cm]
+{\textcolor{Blue}{\textbf{\LARGE{Requirements Analysis and Specification Document}}}} \\ [1cm]
 
 
 \end{center}
@@ -42,16 +46,16 @@
 %Replace cell contents where needed
 \begin{table}[h!]
 \begin{tabu} to \textwidth { X[0.3,r,p] X[0.7,l,p] }
+\hline 
+\textbf{Deliverable:} & RASD\\
+\textbf{Title:} & Data4Help and AutomatedSOS - Requirements Analysis and Specification Document \\
+\textbf{Authors:} & Giorgio Cozza, Barbara Ferretti \\
+\textbf{Version:} & 2.0 \\ 
+\textbf{Date:} & 10-December-2018 \\
+\textbf{Download page:} & https://github.com/GiorgioCozza/CozzaFerretti.git \\
+\textbf{Copyright:} & Copyright © 2018, Giorgio Cozza and Barbara Ferretti – All rights reserved \\ 
 \hline
 
-\textbf{Deliverable:} & RASD\\
-\textbf{Title:} & Data4Help and AutomatedSOS - Requirement Analysis and Verification Document \\
-\textbf{Authors:} & Giorgio Cozza, Barbara Ferretti \\
-\textbf{Version:} & 1.0 \\ 
-\textbf{Date:} & 11-November-2018 \\
-\textbf{Download page:} & https://github.com/GiorgioCozza/CozzaFerretti.git \\
-\textbf{Copyright:} & Copyright © 2018, Giorgio Cozza and Barbara Ferretti – All rights reserved \\
-\hline
 \end{tabu}
 \end{table}
 
@@ -69,7 +73,7 @@
 \addcontentsline{toc}{section}{List of Figures}
 \listoffigures
 \addcontentsline{toc}{section}{List of Tables}
-\listoftables
+%\listoftables
 
 %------------------------------------------------------------------------------------------------------------------------------------------------
 \clearpage
@@ -103,10 +107,10 @@
 
 
 %------------------------------------------------------------------------------------------------------------------------------------------------
-\clearpage
-\addcontentsline{toc}{section}{References}
-\bibliographystyle{plain}
-\bibliography{main}
+%\clearpage
+%\addcontentsline{toc}{section}{References}
+%\bibliographystyle{plain}
+%\bibliography{main}
 %------------------------------------------------------------------------------------------------------------------------------------------------
 
 

@@ -3,92 +3,90 @@
 \contentsline {section}{List of Tables}{5}{section*.4}
 \contentsline {section}{\numberline {1}Introduction}{6}{section.1}
 \contentsline {subsection}{\numberline {1.1}Purpose}{6}{subsection.1.1}
-\contentsline {paragraph}{}{6}{section*.6}
+\contentsline {paragraph}{}{6}{section*.5}
 \contentsline {subsubsection}{\numberline {1.1.1}Goals}{6}{subsubsection.1.1.1}
+\contentsline {paragraph}{}{6}{section*.6}
 \contentsline {paragraph}{}{6}{section*.7}
-\contentsline {paragraph}{}{6}{section*.8}
-\contentsline {subsection}{\numberline {1.2}Scope}{6}{subsection.1.2}
-\contentsline {subsubsection}{\numberline {1.2.1}Problem Analysis}{6}{subsubsection.1.2.1}
-\contentsline {subsubsection}{\numberline {1.2.2}World Phenomena}{7}{subsubsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2}Scope}{7}{subsection.1.2}
+\contentsline {paragraph}{}{7}{section*.8}
 \contentsline {subsection}{\numberline {1.3}Definitions, Acronyms, Abbreviations}{7}{subsection.1.3}
 \contentsline {subsubsection}{\numberline {1.3.1}Definitions}{7}{subsubsection.1.3.1}
-\contentsline {paragraph}{}{7}{section*.9}
-\contentsline {subsubsection}{\numberline {1.3.2}Acronyms}{7}{subsubsection.1.3.2}
+\contentsline {paragraph}{}{8}{section*.9}
+\contentsline {subsubsection}{\numberline {1.3.2}Acronyms}{8}{subsubsection.1.3.2}
 \contentsline {paragraph}{}{8}{section*.10}
 \contentsline {subsubsection}{\numberline {1.3.3}Abbreviations}{8}{subsubsection.1.3.3}
 \contentsline {paragraph}{}{8}{section*.11}
 \contentsline {subsection}{\numberline {1.4}Revision history}{8}{subsection.1.4}
-\contentsline {paragraph}{}{8}{section*.12}
-\contentsline {subsection}{\numberline {1.5}Reference Documents}{8}{subsection.1.5}
-\contentsline {subsection}{\numberline {1.6}Document Structure}{8}{subsection.1.6}
-\contentsline {subsubsection}{\numberline {1.6.1}Chapter 1}{8}{subsubsection.1.6.1}
-\contentsline {paragraph}{}{8}{section*.13}
-\contentsline {subsubsection}{\numberline {1.6.2}Chapter 2}{8}{subsubsection.1.6.2}
-\contentsline {paragraph}{}{8}{section*.14}
+\contentsline {subsection}{\numberline {1.5}Reference Documents}{9}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Document Structure}{9}{subsection.1.6}
+\contentsline {subsubsection}{\numberline {1.6.1}Chapter 1}{9}{subsubsection.1.6.1}
+\contentsline {paragraph}{}{9}{section*.12}
+\contentsline {subsubsection}{\numberline {1.6.2}Chapter 2}{9}{subsubsection.1.6.2}
+\contentsline {paragraph}{}{9}{section*.13}
 \contentsline {subsubsection}{\numberline {1.6.3}Chapter 3}{9}{subsubsection.1.6.3}
-\contentsline {paragraph}{}{9}{section*.15}
+\contentsline {paragraph}{}{9}{section*.14}
 \contentsline {subsubsection}{\numberline {1.6.4}Chapter 4}{9}{subsubsection.1.6.4}
-\contentsline {paragraph}{}{9}{section*.16}
+\contentsline {paragraph}{}{9}{section*.15}
 \contentsline {subsubsection}{\numberline {1.6.5}Chapter 5}{9}{subsubsection.1.6.5}
 \contentsline {section}{\numberline {2}Overall Description}{10}{section.2}
 \contentsline {subsection}{\numberline {2.1}Product Perspective}{10}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Data4Help}{10}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}AutomatedSOS}{10}{subsubsection.2.1.2}
 \contentsline {paragraph}{}{10}{section*.18}
-\contentsline {subsection}{\numberline {2.2}User Characteristics}{10}{subsection.2.2}
-\contentsline {paragraph}{}{10}{section*.19}
-\contentsline {subsection}{\numberline {2.3}Assumptions, Dependencies and Constraints}{10}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Domain Assumptions}{10}{subsubsection.2.3.1}
-\contentsline {paragraph}{}{10}{section*.20}
-\contentsline {paragraph}{}{11}{section*.21}
-\contentsline {section}{\numberline {3}Specific Requirements}{12}{section.3}
-\contentsline {subsection}{\numberline {3.1}External Interface Requirements}{12}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}D4H: User Interfaces}{12}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}D4H: Third Party Interfaces}{12}{subsubsection.3.1.2}
-\contentsline {subsubsection}{\numberline {3.1.3}ASOS: User Interfaces}{13}{subsubsection.3.1.3}
-\contentsline {subsubsection}{\numberline {3.1.4}Hardware Interfaces}{14}{subsubsection.3.1.4}
-\contentsline {paragraph}{}{15}{section*.28}
-\contentsline {subsubsection}{\numberline {3.1.5}Software Interfaces}{15}{subsubsection.3.1.5}
-\contentsline {paragraph}{}{15}{section*.29}
-\contentsline {subsubsection}{\numberline {3.1.6}Communication Interfaces}{15}{subsubsection.3.1.6}
-\contentsline {paragraph}{}{15}{section*.30}
-\contentsline {subsection}{\numberline {3.2}Data4Help Scenarios}{15}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Scenario 1}{15}{subsubsection.3.2.1}
-\contentsline {paragraph}{}{15}{section*.31}
-\contentsline {subsubsection}{\numberline {3.2.2}Scenario 2}{15}{subsubsection.3.2.2}
-\contentsline {paragraph}{}{16}{section*.32}
-\contentsline {subsubsection}{\numberline {3.2.3}Scenario 3}{16}{subsubsection.3.2.3}
-\contentsline {paragraph}{}{16}{section*.33}
-\contentsline {subsubsection}{\numberline {3.2.4}Scenario 4}{16}{subsubsection.3.2.4}
-\contentsline {paragraph}{}{16}{section*.34}
-\contentsline {subsection}{\numberline {3.3}AutomatedSOS Scenarios}{16}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Scenario 1}{16}{subsubsection.3.3.1}
-\contentsline {paragraph}{}{16}{section*.35}
-\contentsline {subsubsection}{\numberline {3.3.2}Scenario 2}{16}{subsubsection.3.3.2}
-\contentsline {paragraph}{}{17}{section*.36}
-\contentsline {subsubsection}{\numberline {3.3.3}Scenario 3}{17}{subsubsection.3.3.3}
-\contentsline {paragraph}{}{17}{section*.37}
-\contentsline {subsection}{\numberline {3.4}Functional Requirements}{17}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Data4Help}{17}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}AutomatedSOS}{18}{subsubsection.3.4.2}
-\contentsline {subsection}{\numberline {3.5}UML Modeling}{20}{subsection.3.5}
-\contentsline {subsubsection}{\numberline {3.5.1}Data4Help Use Cases}{20}{subsubsection.3.5.1}
-\contentsline {subsubsection}{\numberline {3.5.2}AutomatedSOS Use Cases}{25}{subsubsection.3.5.2}
-\contentsline {subsubsection}{\numberline {3.5.3}Data4Help Sequence Diagrams}{29}{subsubsection.3.5.3}
-\contentsline {subsubsection}{\numberline {3.5.4}AutomatedSOS Sequence Diagrams}{31}{subsubsection.3.5.4}
-\contentsline {subsection}{\numberline {3.6}Performance Requirements}{32}{subsection.3.6}
-\contentsline {paragraph}{}{32}{section*.52}
-\contentsline {subsection}{\numberline {3.7}Design Constraints}{32}{subsection.3.7}
-\contentsline {subsection}{\numberline {3.8}Software System Attributes}{32}{subsection.3.8}
-\contentsline {subsubsection}{\numberline {3.8.1}Reliability}{32}{subsubsection.3.8.1}
-\contentsline {paragraph}{}{32}{section*.53}
-\contentsline {subsubsection}{\numberline {3.8.2}Availability}{32}{subsubsection.3.8.2}
-\contentsline {paragraph}{}{33}{section*.54}
-\contentsline {subsubsection}{\numberline {3.8.3}Security}{33}{subsubsection.3.8.3}
-\contentsline {paragraph}{}{33}{section*.55}
-\contentsline {subsubsection}{\numberline {3.8.4}Maintainability}{33}{subsubsection.3.8.4}
-\contentsline {paragraph}{}{33}{section*.56}
-\contentsline {subsubsection}{\numberline {3.8.5}Portability}{33}{subsubsection.3.8.5}
-\contentsline {section}{\numberline {4}Formal Analysis Using Alloy}{34}{section.4}
-\contentsline {section}{\numberline {5}Effort Spent}{38}{section.5}
-\contentsline {section}{References}{39}{section.5}
+\contentsline {subsection}{\numberline {2.2}Product Functions}{11}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Data4Help}{11}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}AutomatedSOS}{12}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}Requirements}{12}{subsubsection.2.2.3}
+\contentsline {paragraph}{}{13}{section*.20}
+\contentsline {paragraph}{}{13}{section*.21}
+\contentsline {subsection}{\numberline {2.3}User Characteristics}{13}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Assumptions, Dependencies and Constraints}{14}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Domain Assumptions}{14}{subsubsection.2.4.1}
+\contentsline {section}{\numberline {3}Specific Requirements}{15}{section.3}
+\contentsline {subsection}{\numberline {3.1}External Interface Requirements}{15}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}D4H: User Interfaces}{15}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}D4H: Third Party Interfaces}{16}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}ASOS: User Interfaces}{17}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.4}Hardware Interfaces}{17}{subsubsection.3.1.4}
+\contentsline {subsubsection}{\numberline {3.1.5}Software Interfaces}{18}{subsubsection.3.1.5}
+\contentsline {subsubsection}{\numberline {3.1.6}Communication Interfaces}{18}{subsubsection.3.1.6}
+\contentsline {subsection}{\numberline {3.2}Data4Help Scenarios}{18}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Scenario 1}{18}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Scenario 2}{19}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Scenario 3}{19}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Scenario 4}{19}{subsubsection.3.2.4}
+\contentsline {subsection}{\numberline {3.3}AutomatedSOS Scenarios}{19}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Scenario 1}{19}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Scenario 2}{20}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}Scenario 3}{20}{subsubsection.3.3.3}
+\contentsline {subsection}{\numberline {3.4}Functional Requirements}{20}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Data4Help}{20}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}AutomatedSOS}{21}{subsubsection.3.4.2}
+\contentsline {subsection}{\numberline {3.5}UML Modeling}{22}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Use Case Notation}{22}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}Data4Help Use Cases}{23}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3}AutomatedSOS Use Cases}{28}{subsubsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.4}Data4Help Sequence Diagrams}{32}{subsubsection.3.5.4}
+\contentsline {subsubsection}{\numberline {3.5.5}AutomatedSOS Sequence Diagrams}{33}{subsubsection.3.5.5}
+\contentsline {subsection}{\numberline {3.6}Performance Requirements}{34}{subsection.3.6}
+\contentsline {paragraph}{}{34}{section*.49}
+\contentsline {subsection}{\numberline {3.7}Design Constraints}{34}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Software System Attributes}{35}{subsection.3.8}
+\contentsline {subsubsection}{\numberline {3.8.1}Reliability}{35}{subsubsection.3.8.1}
+\contentsline {paragraph}{}{35}{section*.50}
+\contentsline {subsubsection}{\numberline {3.8.2}Availability}{35}{subsubsection.3.8.2}
+\contentsline {paragraph}{}{35}{section*.51}
+\contentsline {subsubsection}{\numberline {3.8.3}Security}{35}{subsubsection.3.8.3}
+\contentsline {paragraph}{}{35}{section*.52}
+\contentsline {subsubsection}{\numberline {3.8.4}Maintainability}{35}{subsubsection.3.8.4}
+\contentsline {paragraph}{}{35}{section*.53}
+\contentsline {subsubsection}{\numberline {3.8.5}Portability}{35}{subsubsection.3.8.5}
+\contentsline {section}{\numberline {4}Formal Analysis Using Alloy}{36}{section.4}
+\contentsline {subsection}{\numberline {4.1}Alloy Code}{36}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Signatures}{36}{subsubsection.4.1.1}
+\contentsline {subsection}{\numberline {4.2}Facts and Asserts}{39}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Predicates}{40}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Testing}{41}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Data4Help World}{43}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}AutomatedSOS World}{43}{subsubsection.4.2.4}
+\contentsline {section}{\numberline {5}Effort Spent}{44}{section.5}
+\contentsline {section}{\numberline {6}Software Tools}{44}{section.6}
+\contentsline {section}{\numberline {7}References}{44}{section.7}

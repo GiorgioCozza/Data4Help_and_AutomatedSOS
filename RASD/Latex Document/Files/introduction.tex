@@ -1,8 +1,8 @@
 
 \begin{flushleft}
 {\color{Blue}{\subsection{Purpose}}\raggedright}
-TrackMe is a data management vendor whose business is mostly focused on healthcare. It wants to create a software system, called \textbf{Data4Help} to facilitate data acquisition by third parties of either a specific user or collective of users. Nowadays, in healthcare there would be tons of reasons in providing personal information: research centers may be interested in user data for carrying out large-scale studies or private clinics could monitorize remotely their patients, likewise public institutions could manage such data for the public health assistance. Unfortunately, not all of them can afford software-based systems and related infrastructures to provide a service at this level: TrackMe and then Data4Help wants to cover an intermediary role in this situation.\par
-The trend in this field is also heading to the developement of smarter systems able to ensure readness in emergency situations in which users need to be immediately assisted, rather than only be passively monitored. The support and availability of several public and private hospitals in providing resources required to implement the service has pushed TrackMe to build on top of Data4Help, another important service: \textbf{AutomatedSOS}. \par
+TrackMe is a data management vendor whose business is mostly focused on healthcare. It wants to create a software system, called \textbf{Data4Help} to facilitate data acquisition by third parties of either a specific user or collective of users. Nowadays, in healthcare there would be tons of reasons in providing personal information: research centers may be interested in user data for carrying out large-scale studies or private clinics could monitor remotely their patients, likewise public institutions could manage such data for the public health assistance. Unfortunately, not all of them can afford software-based systems and related infrastructures to provide a service at this level: TrackMe and then Data4Help wants to cover an intermediary role in this situation.\par
+The trend in this field is also heading to the development of smarter systems able to ensure readiness in emergency situations in which users need to be immediately assisted, rather than only be passively monitored. The support and availability of several public and private hospitals in providing resources required to implement the service has pushed TrackMe to build on top of Data4Help, another important service, able to achieve such purpose: \textbf{AutomatedSOS}. \par
 \paragraph{}
 This RASD (Requirement Analysis and Specification Document) aims to describe and analyze deeply the two problems, trying to define goals and requirements under the external environment conditions. It is followed, moreover, by a formal definition and consistency testing of critical aspects of both the services through Alloy modeling. It is intended as a guide for further phases of the design as well as a valid reference for possible legal agreements.
 
@@ -15,50 +15,42 @@ This RASD (Requirement Analysis and Specification Document) aims to describe and
 \item \textbf{[G1]:} A user can register personal health monitoring devices in the system
 \item \textbf{[G2]:} TrackMe acquires periodically health parameters specifically related to a user
 \item \textbf{[G3]:} Third parties can access health data of specific users, if expressively authorized by the them
-\item \textbf{[G4]:} Third-parties can request anonymous information about groups of people.
+\item \textbf{[G4]:} Third-parties can request anonymous information about groups of people
 \end{itemize}
 
 \paragraph{}
 \textbf{AutomatedSOS}
 \begin{itemize}
-\item \textbf{[G5]:} The user has the possibility to specify the diseases he/she has, so the system can evaluate which health parameters monitorize
+\item \textbf{[G5]:} The user has the possibility to specify the diseases he/she has, so the system can evaluate which health parameters to monitor
 \item \textbf{[G6]:} An ambulance may be sent within 5 seconds, if an emergency or anomaly condition is detected
-\item \textbf{[G7]:} A user designated as Supervisor of another one, is notified of both emergency and anomaly events occuring to the supervised user
+\item \textbf{[G7]:} A user designated as Supervisor of another one, is notified of both emergency and anomaly events occurring to the supervised user
 \end{itemize}
 
-
+\newpage
 {\color{Blue}{\subsection{Scope}}}
 
-{\color{Blue}{\subsubsection{Problem Analysis}}}
-Data4Help is a software system intended to facilitate the access to user-provided health data to third parties. The system covers an intermediary role between who wants to make personal information accessible to specific entities or specific purposes and who has an interest to access such information. Registered users can be monitored using personal sensor devices registered in the service and send information related to her/his health status to the system. Third parties, on the other side, can formulate requests to access the user data related to:
-
-\begin{itemize}%[partopsep=1cm]
-	\item a specific person
-	\item a group of anonymous individuals
-\end{itemize}
-
-In the first case, the user must be notified by the system that someone is interested to acquire his/her personal data. The service must prevent third parties from accessing to the required information before the request has been accepted by the target user. The organization can attach a motivation, the purpose of the reason of the access request.
-
-After a careful analysis, it has been established that, in order to not allow third parties to trace back to specific user information through anonymous requests, the involved individuals must be at least 1000. This means that, once received an anonymous request, the system must be able to evaluate how many anonymous users can be reached according to the research criteria specified by the third party, then accept or reject the request on the basis of the privacy policy enforced by the service. 
-
-{\color{Blue}{\subsubsection{World Phenomena}}}
+Data4Help is a software system intended to facilitate the access to health data to third parties provided by users. The system covers an intermediary role between who wants to make personal information accessible to specific entities or specific purposes and who has an interest to access such information. Registered users can be monitored using personal sensor devices registered in the service and send information related to his/her health status to the system. Third parties, on the other side, can register to the service and formulate requests to access to specific users' data only under authorization of the target user, or acquire anonymous datasets of several Data4Help users whose identity is kept secret by the system. The service, of course must enforce a privacy protection policy to prevent third parties to trace back to user-protected information starting from an anonymous request. Furthermore, in order to not allow every network-connected host to register as ThirdParty, D4H system exploits the new service provided by the Organization and Company Certification Authority (OCCA), that is an accessible database used by Internet services to check identity and reliability of each company and organization registered in it.\\
+AutomatedSOS instead, is built on top of Data4Help, it exploits real-time data provided by Data4Help users to provide immediate assistance when an emergency situation is detected. The service exists thanks to a network of Emergency Resource Manager (ERM), a system provided by several hospital and clinics in order to manage and dispatch squads and vehicles when an emergency call is received. Unfortunately, the actual sensing technology is premature in detecting unambiguously dangerous situations. The system will have to avoid the waste of medical resources in all those situations in which a detection may represent, with an appreciable probability, a false positive or a improper usage of the service. In fact, a man who falls may be interpreted as a serious loss of consciousness or a minor injury. The system must ensure a response time to the user to check if everything is ok, otherwise alert an ambulance and all the people interested in the health status of the user.
+\paragraph{}
 
 {\color{Blue}{\subsection{Definitions, Acronyms, Abbreviations}}}
 {\color{Blue}{\subsubsection{Definitions}}}
 \raggedright
 \textbf{User:} both Data4Help and AutomatedSOS users.\\
-\textbf{Third Party:} more frequentely are companies that looks for health information for their market research, but they could also be facilities like hospitals or other activities interested in the health field.  \\ 
+\textbf{Third Party:} more frequently are companies that looks for health information for their market research, but they could also be facilities like hospitals or other activities interested in the health field.  \\ 
 \textbf{Anomaly condition:} alteration of health monitored parameters that causes an alert to the user.\\
 \textbf{Emergency condition:} alteration of the health monitored parameters that directly triggers the sent of an ambulance.\\
 \textbf{False Positive:} an erroneous detection of the system.\\
 \textbf{Supervisor user:} every user that has access to another user information and location. \\
-\textbf{Sensor Device:} all the health sensor devices that can be registered in the Data4Help system.\\
+\textbf{Sensor/Monitoring Device:} all the health sensor devices that can be registered in the Data4Help system.\\
 \textbf{Supervised User:} an AutomatedSOS user who is monitored by the application and has one or more Supervisors. \\
 \textbf{ASOS Monitor Mode:} flag that tells the system if the user must be monitored or not, it can be changed from client-side application.\\
 \textbf{Emergency Resource Manager:} is a system already implemented in all the hospitals subscribed to the AutomatedSOS service, it handles emergency calls and AutomatedSOS notifications. For each case manages the resources required by the emergency. \\
-\textbf{RescueSquad:} general term used to refer a registered group of rescuers provided with the equipment required for the specific type of emergency. \\
+\textbf{RescueSquad/Resource:} general term used to refer a registered group of rescuers provided with the equipment required for the specific type of emergency. \\
 \textbf{Clinical condition:} a risk condition associated to one or more health indicators that must be monitored in order to prevent fatal effects. \\
 \textbf{Minimum required sensors:} the minimum set of sensors in AutomatedSOS that allows the system to monitor at least one clinical condition. \\
+\textbf{Organization and Company Certification Authority:} an organization that provides a network-accessible database which all companies and organizations that want to subscribe, can register to, making identity and reliability information about them publicly available.\\
+\textbf{OCCA Database System:} the service provided by OCCA.\\
 \paragraph{}
 
 {\color{Blue}\subsubsection{Acronyms}}
@@ -73,42 +65,55 @@ After a careful analysis, it has been established that, in order to not allow th
 \textbf{TLS:} Transport Layer Security\\
 \textbf{HTTPS:} HTTP over TLS\\
 \textbf{ERM:} Emergency Resource Manager\\
+\textbf{TP:} Third Party\\
+\textbf{OCCA:} Organization and Company Certification Authority\\
 \paragraph{}
 
 {\color{Blue}\subsubsection{Abbreviations}}
 \textbf{[Gn]:} n-th Goal\\
 \textbf{[Rn]:} n-th Requirement\\
-\textbf{[Dn]:} n-th Domain Assumptions\\
+\textbf{[Dn]:} n-th Domain Assumption\\
 \textbf{24/7:} 24 hours per day, for 7 days per week \\
 \paragraph{}
 
 {\color{Blue}\subsection{Revision history}}
-Up to now, there are no revision of this document as this is the first release.\\
-\paragraph{}
+\begin{itemize}
+\item \textbf{Revision 1:}\begin{itemize}
+	\item Three more exceptions added in the use cases. Two in the "Register Device" use case and the other one in "Change Health Profile" use case
+
+	\item Two domain assumptions added, another one has been modified and  a more correct organization for domain assumption section has been provided
+	\item Class diagrams updated to make them coherent with design document changes
+	\item The service that provides the possibility to check ThirdParty information has been defined with a real name and mentioned in some parts of the document
+	\item Software Interface section modified: Google Map API has been removed, device communication, OCCA database and ERM system APIs have been mentioned
+	\item The exposition in Portability and Security sections has been made in a clearer way
+	\item  Minor changes
+\end{itemize}  
+\end{itemize}
+%\paragraph{}
 
 {\color{Blue}\subsection{Reference Documents}}
 \begin{itemize}
-\item Slides package: Requirement Engineerig part II
-\item Mandatory Project Assignement AY 2018-2019
-\item 
+\item Slides package: Requirement Engineering part II
+\item Mandatory Project Assignment AY 2018-2019
+\item IEEE, \textit{"IEEE Recommended Practice for Software Requirements Specifications"}
 \end{itemize}
  
 {\color{Blue}{\subsection{Document Structure}}}
 {\color{Blue}{\subsubsection{Chapter 1}}}
-In the first chapter is given a general presentation of the aim of this document, with the goals that the software has to satisfy. Morover are given other basic information in order to read easily the entire work, like the dictionary for example.
+In the first chapter is given a general presentation of the aim of this document, with the goals that the software has to satisfy. Moreover are given other basic information in order to read easily the entire work, like the dictionary for example.
 \paragraph{}
 
 {\color{Blue}\subsubsection{Chapter 2}}
 Here is given a more detailed presentation of the software to be. In fact, in this chapter are presented the characteristics of the final users of the application, which will be the major functions of the system and the general interaction between the system and the user.
-Moreover are elencated all the constraints and the assumptions adopted in order to make the software work well.
+Moreover are listed all the constraints and the assumptions adopted in order to make the software work well.
 \paragraph{}
 
 {\color{Blue}\subsubsection{Chapter 3}}
-The third chapter is the most technical one. Here the requirements of the application are presented and is made clear the relation with them and the goals and the assuption of the previous chapters. Also various scenarios of a possible typical situation that needs the utilization of the software are listed. From them the use cases are created and so is possible to have, with the help of the UML diagrams, a more precise presentation of the interaction between the users and the system.
+The third chapter is the most technical one. Here the requirements of the application are presented and is made clear the relation with them and the goals and the assumption of the previous chapters. Also various scenarios of a possible typical situation that needs the utilization of the software are listed. From them the use cases are created and so is possible to have, with the help of the UML diagrams, a more precise presentation of the interaction between the users and the system.
 \paragraph{}
 
 {\color{Blue}\subsubsection{Chapter 4}}
-This chapter is entirely dedicated to the analysis of the system, performed with Alloy. In the first subchapter the entire code is presented and, in the second one, there are the reuslts obtained . \par
+This chapter is entirely dedicated to the analysis of the system, performed with Alloy. In the first subchapter the entire code is presented and, in the second one, the results of analysis and a representation of the generated worlds . \par
 \paragraph{}
 
 {\color{Blue}\subsubsection{Chapter 5}}
