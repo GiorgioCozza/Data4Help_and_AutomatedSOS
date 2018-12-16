@@ -30,24 +30,24 @@
 \textbf{[G3]: Third parties can access health data of specific users, if expressively authorized by the them}
 
 \begin{itemize}
-	\item {[R5]: The system must be able to identify and certificate the reliability of each organization that wants to request user data.}
+	\item {[R4]: The system must be able to identify and certificate the reliability of each organization that wants to request user data.}
 	\begin{itemize}
 		\item {\textbf{PrivacyAndSecurityEvaluator} (Server)}
 	\end{itemize}   
-	\item {[R6]: Each registered organization that wants to access health data of specific users must be able to formulate a request providing information related to the purpose of the request.}
+	\item {[R5]: Each registered organization that wants to access health data of specific users must be able to formulate a request providing information related to the purpose of the request.}
 	\begin{itemize}
 		\item {\textbf{TP\_RequestManager} (Server)}
 	\end{itemize}   
-	\item {[R7]: The system must notify each user of a third party request as soon as it is formulated, and allow him/her to accept or reject the request.}
+	\item {[R6]: The system must notify each user of a third party request as soon as it is formulated, and allow him/her to accept or reject the request.}
 	\begin{itemize}
 		\item {\textbf{DataRequestManager} (Client)}
 	\end{itemize}   
-	\item {[R8]: For each third party request the system should provide to the user information related to the requestor and the purpose of the request.}
+	\item {[R7]: For each third party request the system should provide to the user information related to the requestor and the purpose of the request.}
 	\begin{itemize}
 		\item {\textbf{TP\_RequestManager} (Server)}
 		\item {\textbf{DataRequestManager} (Client)}
 	\end{itemize}   
-	\item {[R9]: Once a third party request is accepted by the user, the third party must have full access to the entire collection of data of the user.}
+	\item {[R8]: Once a third party request is accepted by the user, the third party must have full access to the entire collection of data of the user.}
 	\begin{itemize}
 		\item {\textbf{TP\_RequestManager} (Server)}
 		\item {\textbf{DatasetGenerator} (Server)}
@@ -58,12 +58,12 @@
 \textbf{[G4]: Third-parties can request anonymous information about groups of users}
 
 \begin{itemize}
-	\item {[R10]: Third parties must be able to request health data of groups of anonymous users, according to several criteria without being expressively authorized.}
+	\item {[R9]: Third parties must be able to request health data of groups of anonymous users, according to several criteria without being expressively authorized.}
 	\begin{itemize}
 		\item {\textbf{TP\_RequestManager} (Server)}
 		\item {\textbf{DatasetGenerator} (Server)}
 	\end{itemize}   
-	\item {[R11]: The system must prevent third parties to trace back to specific user information through anonymous requests.}
+	\item {[R10]: The system must prevent third parties to trace back to specific user information through anonymous requests.}
 	\begin{itemize}
 		\item {\textbf{PrivacyAndSecurityEvaluator} (Server)}
 	\end{itemize}   
@@ -75,12 +75,12 @@
 \textbf{[G5]: The user has the possibility to specify the diseases he/she has, so the system can evaluate which health parameters to monitor}
 
 \begin{itemize}
-	\item {[R12]: The system must give the possibility to the user to specify which diseases he/she has.}
+	\item {[R11]: The system must give the possibility to the user to specify which diseases he/she has.}
 	\begin{itemize}
 		\item {\textbf{UserHealthProfileManager} (Client)}
 		\item {\textbf{HealthProfileManager} (Server)}
 	\end{itemize}   
-	\item {[R13]: The system must prevent the possibility to use the service, if the minimum required sensors are missing.}
+	\item {[R12]: The system must prevent the possibility to use the service, if the minimum required sensors are missing.}
 	\begin{itemize}
 		\item {\textbf{HealthProfileManager} (Server)}
 	\end{itemize}   
@@ -89,30 +89,30 @@
 \textbf{[G6]: An ambulance may be sent within 5 seconds, if an emergency or anomaly condition is detected}
 
 \begin{itemize}
-	\item {[R14]: The system must allow the user to turn on and off the service each time he/she wants.}
+	\item {[R13]: The system must allow the user to turn on and off the service each time he/she wants.}
 	\begin{itemize}
 		\item {\textbf{Session} (Server)}
 		\item {\textbf{SessionManager} (Server)}
 	\end{itemize}   
-	\item {[R15]: The system must stop monitoring when minimum required sensors are missing.}
+	\item {[R14]: The system must stop monitoring when minimum required sensors are missing.}
 	\begin{itemize}
 		\item {\textbf{SessionManager} (Server)}
 		\item {\textbf{HealthProfileManager} (Server)}
 	\end{itemize}   
-	\item {[R16]: The system must be able to distinguish and detect emergency or anomaly conditions occurring to a specific user.}
+	\item {[R15]: The system must be able to distinguish and detect emergency or anomaly conditions occurring to a specific user.}
 	\begin{itemize}
 		\item {\textbf{Analyzer} (Server)}
 		\item {\textbf{EmergencyCondition} (Server)}
 		\item {\textbf{AnomalyCondition} (Server)}
 	\end{itemize}   
-	\item {[R17]: When an anomaly condition is detected, the system must send a notification to the user, asking if it is an emergency condition. If the user does not answer the notification within 30 seconds, the anomaly must become an emergency }
+	\item {[R16]: When an anomaly condition is detected, the system must send a notification to the user, asking if it is an emergency condition. If the user does not answer the notification within 30 seconds, the anomaly must become an emergency }
 	\begin{itemize}
 		\item {\textbf{Analyzer} (Server)}
 		\item {\textbf{EmergencyCondition} (Server)}
 		\item {\textbf{AnomalyCondition} (Server)}
 		\item {\textbf{EventObserver}}
 	\end{itemize}   
-	\item {[R18]: When an emergency condition is detected, the nearest ambulance must be alerted, providing all the information about the situation.}
+	\item {[R17]: When an emergency condition is detected, the nearest ambulance must be alerted, providing all the information about the situation.}
 	\begin{itemize}
 		\item {\textbf{Analyzer} (Server)}
 		\item {\textbf{EmergencyCondition} (Server)}
@@ -125,17 +125,17 @@
 \textbf{[G7]: A user designated as Supervisor of another one, is notified of both emergency and anomaly events occurring to the supervised user}
 
 \begin{itemize}[itemsep=0em]
-	\item {[R19]: A user must have the possibility to request to become Supervisor of another one.}
+	\item {[R18]: A user must have the possibility to request to become Supervisor of another one.}
 	\begin{itemize}
 		\item {\textbf{SupervisorRequestManager} (Client)}
 		\item {\textbf{SupervisorManager} (Server)}
 	\end{itemize}   
-	\item {[R20]: Each supervised user must be able to accept or reject the possibility to have a Supervisor.}
+	\item {[R19]: Each supervised user must be able to accept or reject the possibility to have a Supervisor.}
 	\begin{itemize}
 		\item {\textbf{SupervisorRequestManager} (Client)}
 		\item {\textbf{SupervisorManager} (Server)}
 	\end{itemize}   
-	\item {[R21]: The Supervisor must be notified by the system of all emergency and anomaly conditions occurring to the supervised user.}
+	\item {[R20]: The Supervisor must be notified by the system of all emergency and anomaly conditions occurring to the supervised user.}
 	\begin{itemize}
 		\item {\textbf{SupervisorManager} (Server)}
 		\item {\textbf{EventObserver}}

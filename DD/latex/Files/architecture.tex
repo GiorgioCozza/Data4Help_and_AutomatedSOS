@@ -269,7 +269,7 @@ Several design patterns have been considered for both the architecture, in parti
 		\item \textbf{Analyzer}: different types of analysis following the same abstract model could be performed according to specific risk factors;
 		\item \textbf{DataCollector}: that could collect data samples in many different ways from all the active devices.
 	\end{itemize}
-	\item \textbf{MVC (Model-View-Controller)}: at client side, this pattern allows separation between graphical representation of data, the business logic deployed to process it and data models;
+	\item \textbf{MVC (Model-View-Controller)}: at client side, this pattern allows separation between graphical representation of data, the application logic deployed to process it and data models;
 	\item \textbf{Chain of Responsibility Pattern}: considered in the server architecture, in particular to:
 	\begin{itemize}
 		\item  regulate the interaction between the server and the ERMs for dispatching a rescue squad (Resource) when an emergency condition is detected. When the \textit{Analyzer} catches a dangerous situation, creates and delegates the responsibilities to alert the ERM to the \textit{EmergencyCondition} component, that, in turn, calls the \textit{ERMController} for alerting the hospital which is the nearest to the user;

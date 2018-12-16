@@ -9,7 +9,7 @@ This Design Document will provide an overall definition of the main system compo
 
 {\color{Blue}{\subsection{Scope}}}
 
-As already explained in the previous RASD, Data4Help and AutomatedSOS are physically separated applications, since even if they handle the same set of data types, they concern with different purposes. The first one represents a privacy-guaranteed service to manage third party requests of access to user-provided health data, the second is a service conceived to ensure first assistance whenever dangerous conditions for registered users are detected. The discussion at this point should be focused specifically on the architecture behind these two services, analyzing the way both applications will collect health data from the monitoring devices, how TrackMe servers will manage such data and more. To this end, since TrackMe wants to not depend strictly on external cloud infrastructures for commercial and data-security reasons, it decided to host  its own server farm completely. For the moment the system will be centralized, but easily distributable for future needs, according to the growth factor of the customer number. This in order to form a private cloud infrastructure built on top of a distributed database system.
+As already explained in the previous RASD, Data4Help and AutomatedSOS are physically separated applications, since even if they handle the same set of data types, they concern with different purposes. The first one represents a privacy-guaranteed service to manage third party requests of access to user-provided health data, the second is a service conceived to ensure first assistance whenever dangerous conditions for registered users are detected. The discussion at this point should be focused specifically on the architecture behind these two services, analyzing the way both applications will collect health data from the monitoring devices, how TrackMe servers will manage such data and more. To this end, since TrackMe wants to not depend strictly on external cloud infrastructures for commercial and data-security reasons, it decided to host  its own server farm completely. For the moment the system will be centralized, but easily distributable for future needs, according to the growth factor of the customer number. This in order to form a private cloud infrastructure built on top of a distributed database system. 
 %Unfortunately, the deadline prevents a detailed analysis of this solution for further versions of the project.\\
 
 
@@ -25,7 +25,8 @@ As already explained in the previous RASD, Data4Help and AutomatedSOS are physic
 \textbf{Supervised User:} an AutomatedSOS user who is monitored by the application and has one or more Supervisors. \\
 \textbf{ASOS Monitor Mode:} flag that tells the system if the user must be monitored or not, it can be changed from client-side application.\\
 \textbf{Emergency Resource Manager:} is a system already implemented in all the hospitals subscribed to the AutomatedSOS service, it handles emergency calls and AutomatedSOS notifications. For each case manages the resources required by the emergency. \\
-\textbf{RescueSquad:} general term used to refer a registered group of rescuers provided with the equipment required for the specific type of emergency. 
+\textbf{RescueSquad/Resource:} general term used to refer a registered group of rescuers provided with the equipment required for the specific type of emergency. 
+
 
 {\color{Blue}\subsubsection{Acronyms}}
 \textbf{ASOS:} AutomatedSOS\\
@@ -38,15 +39,17 @@ As already explained in the previous RASD, Data4Help and AutomatedSOS are physic
 \textbf{HTTPS:} HTTP over TLS\\
 \textbf{ERM:} Emergency Resource Manager\\
 \textbf{TP:} Third Party
-%\paragraph{}
+
 
 {\color{Blue}\subsubsection{Abbreviations}}
 \textbf{[Gn]:} n-th Goal\\
 \textbf{[Rn]:} n-th Requirement
-%\paragraph{}
+
 
 {\color{Blue}{\subsection{Revision History}}}
-Up to now, there are no revision of this document as this is the first release.
+\textbf{Revision 1:}\begin{itemize}
+	\item Minor changes
+\end{itemize}
 
 {\color{Blue}{\subsection{Reference Documents}}}
 \begin{itemize}
